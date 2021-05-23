@@ -96,6 +96,12 @@
     <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -219,13 +228,19 @@
     <None Include="Resources\ico_subway.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ico_mirador.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ico_salsacarbon.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ico_app2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_mirador.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_mirador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_eventoscarolina2.jpg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -31,19 +31,28 @@ Partial Class Form1
         Me.Pn_SideMenu = New System.Windows.Forms.Panel()
         Me.Pn_Filtros = New System.Windows.Forms.TableLayoutPanel()
         Me.Pn_Especialidad = New System.Windows.Forms.Panel()
+        Me.BunifuCheckbox14 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCheckbox13 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCheckbox11 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCheckbox9 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCheckbox17 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCheckbox18 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCustomLabel36 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel34 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel35 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel25 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel27 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel30 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel31 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Pn_Disponibilidad = New System.Windows.Forms.Panel()
         Me.BunifuCustomLabel29 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel20 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCheckbox3 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.BunifuCustomLabel22 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.Lbl_Filtro = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.Pn_TipoDeComida = New System.Windows.Forms.Panel()
+        Me.Pn_TipoDeRestaurante = New System.Windows.Forms.Panel()
         Me.BunifuCustomLabel5 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCheckbox1 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox6 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.BunifuCustomLabel6 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel11 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCheckbox2 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.BunifuCheckbox5 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.BunifuCustomLabel9 = New Bunifu.Framework.UI.BunifuCustomLabel()
@@ -65,7 +74,16 @@ Partial Class Form1
         Me.Lbl_Efectivo = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Cb_ = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.Lbl_FormasDePago = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Pn_ComidaDelDia = New System.Windows.Forms.Panel()
+        Me.BunifuCheckbox12 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCustomLabel33 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCheckbox10 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCustomLabel32 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel21 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCheckbox8 = New Bunifu.Framework.UI.BunifuCheckbox()
+        Me.BunifuCustomLabel28 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Lbl_Filtro = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Pn_header = New System.Windows.Forms.Panel()
         Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
@@ -92,32 +110,13 @@ Partial Class Form1
         Me.BunifuCustomLabel23 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.TableLayoutPanel8 = New System.Windows.Forms.TableLayoutPanel()
         Me.BunifuCustomLabel26 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.Pn_ComidaDelDia = New System.Windows.Forms.Panel()
-        Me.BunifuCheckbox12 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCustomLabel33 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCheckbox10 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCustomLabel32 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel21 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCheckbox8 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCustomLabel28 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.LogoMenuAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
-        Me.SideMenuAnimator2 = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.TableLayoutPanel9 = New System.Windows.Forms.TableLayoutPanel()
         Me.BunifuCustomLabel24 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel25 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel27 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel30 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel34 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel35 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel36 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCheckbox17 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox18 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox9 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox11 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox13 = New Bunifu.Framework.UI.BunifuCheckbox()
-        Me.BunifuCheckbox14 = New Bunifu.Framework.UI.BunifuCheckbox()
         Me.TableLayoutPanel10 = New System.Windows.Forms.TableLayoutPanel()
         Me.BunifuCustomLabel37 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.LogoMenuAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
+        Me.SideMenuAnimator2 = New BunifuAnimatorNS.BunifuTransition(Me.components)
+        Me.SideMenuHideAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.Pic_McDonalds = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuImageButton2 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuImageButton3 = New Bunifu.Framework.UI.BunifuImageButton()
@@ -134,15 +133,15 @@ Partial Class Form1
         Me.Btn_Maximizar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Btn_Cerrar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.SideMenuHideAnimator = New BunifuAnimatorNS.BunifuTransition(Me.components)
         Me.Pn_SideMenu.SuspendLayout()
         Me.Pn_Filtros.SuspendLayout()
         Me.Pn_Especialidad.SuspendLayout()
         Me.Pn_Disponibilidad.SuspendLayout()
-        Me.Pn_TipoDeComida.SuspendLayout()
+        Me.Pn_TipoDeRestaurante.SuspendLayout()
         Me.Pn_Presupuesto.SuspendLayout()
         Me.Pn_TipoDeDespacho.SuspendLayout()
         Me.Pn_FormaDePago.SuspendLayout()
+        Me.Pn_ComidaDelDia.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.Pn_header.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -155,7 +154,6 @@ Partial Class Form1
         Me.Pn_Restaurantes.SuspendLayout()
         Me.TableLayoutPanel7.SuspendLayout()
         Me.TableLayoutPanel8.SuspendLayout()
-        Me.Pn_ComidaDelDia.SuspendLayout()
         Me.TableLayoutPanel9.SuspendLayout()
         Me.TableLayoutPanel10.SuspendLayout()
         CType(Me.Pic_McDonalds, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -198,7 +196,7 @@ Partial Class Form1
         Me.Pn_Filtros.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.Pn_Filtros.Controls.Add(Me.Pn_Especialidad, 0, 8)
         Me.Pn_Filtros.Controls.Add(Me.Pn_Disponibilidad, 0, 6)
-        Me.Pn_Filtros.Controls.Add(Me.Pn_TipoDeComida, 0, 1)
+        Me.Pn_Filtros.Controls.Add(Me.Pn_TipoDeRestaurante, 0, 1)
         Me.Pn_Filtros.Controls.Add(Me.Pn_Presupuesto, 0, 2)
         Me.Pn_Filtros.Controls.Add(Me.Pn_TipoDeDespacho, 0, 3)
         Me.Pn_Filtros.Controls.Add(Me.Pn_FormaDePago, 0, 5)
@@ -249,11 +247,210 @@ Partial Class Form1
         Me.SideMenuAnimator2.SetDecoration(Me.Pn_Especialidad, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Pn_Especialidad, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_Especialidad.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_Especialidad.Location = New System.Drawing.Point(3, 772)
+        Me.Pn_Especialidad.Location = New System.Drawing.Point(3, 744)
         Me.Pn_Especialidad.Name = "Pn_Especialidad"
         Me.Pn_Especialidad.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Me.Pn_Especialidad.Size = New System.Drawing.Size(352, 233)
         Me.Pn_Especialidad.TabIndex = 28
+        Me.Pn_Especialidad.Visible = False
+        '
+        'BunifuCheckbox14
+        '
+        Me.BunifuCheckbox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox14.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox14.Checked = False
+        Me.BunifuCheckbox14.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox14.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox14.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox14.Location = New System.Drawing.Point(71, 199)
+        Me.BunifuCheckbox14.Name = "BunifuCheckbox14"
+        Me.BunifuCheckbox14.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox14.TabIndex = 40
+        '
+        'BunifuCheckbox13
+        '
+        Me.BunifuCheckbox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox13.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox13.Checked = False
+        Me.BunifuCheckbox13.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox13.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox13.Location = New System.Drawing.Point(71, 169)
+        Me.BunifuCheckbox13.Name = "BunifuCheckbox13"
+        Me.BunifuCheckbox13.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox13.TabIndex = 39
+        '
+        'BunifuCheckbox11
+        '
+        Me.BunifuCheckbox11.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox11.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox11.Checked = False
+        Me.BunifuCheckbox11.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox11.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox11.Location = New System.Drawing.Point(71, 139)
+        Me.BunifuCheckbox11.Name = "BunifuCheckbox11"
+        Me.BunifuCheckbox11.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox11.TabIndex = 38
+        '
+        'BunifuCheckbox9
+        '
+        Me.BunifuCheckbox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox9.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox9.Checked = False
+        Me.BunifuCheckbox9.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox9.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox9.Location = New System.Drawing.Point(71, 109)
+        Me.BunifuCheckbox9.Name = "BunifuCheckbox9"
+        Me.BunifuCheckbox9.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox9.TabIndex = 37
+        '
+        'BunifuCheckbox17
+        '
+        Me.BunifuCheckbox17.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox17.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox17.Checked = False
+        Me.BunifuCheckbox17.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox17.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox17.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox17.Location = New System.Drawing.Point(71, 49)
+        Me.BunifuCheckbox17.Name = "BunifuCheckbox17"
+        Me.BunifuCheckbox17.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox17.TabIndex = 35
+        '
+        'BunifuCheckbox18
+        '
+        Me.BunifuCheckbox18.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox18.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox18.Checked = False
+        Me.BunifuCheckbox18.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox18.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox18.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox18.Location = New System.Drawing.Point(71, 79)
+        Me.BunifuCheckbox18.Name = "BunifuCheckbox18"
+        Me.BunifuCheckbox18.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox18.TabIndex = 36
+        '
+        'BunifuCustomLabel36
+        '
+        Me.BunifuCustomLabel36.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel36.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel36.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel36.Location = New System.Drawing.Point(123, 195)
+        Me.BunifuCustomLabel36.Name = "BunifuCustomLabel36"
+        Me.BunifuCustomLabel36.Size = New System.Drawing.Size(65, 28)
+        Me.BunifuCustomLabel36.TabIndex = 33
+        Me.BunifuCustomLabel36.Text = "Sushi"
+        '
+        'BunifuCustomLabel34
+        '
+        Me.BunifuCustomLabel34.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel34.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel34.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel34.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel34.Location = New System.Drawing.Point(123, 165)
+        Me.BunifuCustomLabel34.Name = "BunifuCustomLabel34"
+        Me.BunifuCustomLabel34.Size = New System.Drawing.Size(163, 28)
+        Me.BunifuCustomLabel34.TabIndex = 31
+        Me.BunifuCustomLabel34.Text = "Hamburguesas"
+        '
+        'BunifuCustomLabel35
+        '
+        Me.BunifuCustomLabel35.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel35.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel35.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel35.Location = New System.Drawing.Point(123, 135)
+        Me.BunifuCustomLabel35.Name = "BunifuCustomLabel35"
+        Me.BunifuCustomLabel35.Size = New System.Drawing.Size(151, 28)
+        Me.BunifuCustomLabel35.TabIndex = 29
+        Me.BunifuCustomLabel35.Text = "Emparedados"
+        '
+        'BunifuCustomLabel25
+        '
+        Me.BunifuCustomLabel25.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel25.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel25.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel25.Location = New System.Drawing.Point(123, 105)
+        Me.BunifuCustomLabel25.Name = "BunifuCustomLabel25"
+        Me.BunifuCustomLabel25.Size = New System.Drawing.Size(61, 28)
+        Me.BunifuCustomLabel25.TabIndex = 27
+        Me.BunifuCustomLabel25.Text = "Pollo"
+        '
+        'BunifuCustomLabel27
+        '
+        Me.BunifuCustomLabel27.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel27.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel27.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel27.Location = New System.Drawing.Point(123, 75)
+        Me.BunifuCustomLabel27.Name = "BunifuCustomLabel27"
+        Me.BunifuCustomLabel27.Size = New System.Drawing.Size(81, 28)
+        Me.BunifuCustomLabel27.TabIndex = 25
+        Me.BunifuCustomLabel27.Text = "Carnes"
+        '
+        'BunifuCustomLabel30
+        '
+        Me.BunifuCustomLabel30.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel30.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel30.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel30.Location = New System.Drawing.Point(123, 45)
+        Me.BunifuCustomLabel30.Name = "BunifuCustomLabel30"
+        Me.BunifuCustomLabel30.Size = New System.Drawing.Size(100, 28)
+        Me.BunifuCustomLabel30.TabIndex = 23
+        Me.BunifuCustomLabel30.Text = "Mariscos"
         '
         'BunifuCustomLabel31
         '
@@ -283,11 +480,12 @@ Partial Class Form1
         Me.SideMenuAnimator2.SetDecoration(Me.Pn_Disponibilidad, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Pn_Disponibilidad, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_Disponibilidad.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_Disponibilidad.Location = New System.Drawing.Point(3, 520)
+        Me.Pn_Disponibilidad.Location = New System.Drawing.Point(3, 492)
         Me.Pn_Disponibilidad.Name = "Pn_Disponibilidad"
         Me.Pn_Disponibilidad.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Me.Pn_Disponibilidad.Size = New System.Drawing.Size(352, 105)
         Me.Pn_Disponibilidad.TabIndex = 26
+        Me.Pn_Disponibilidad.Visible = False
         '
         'BunifuCustomLabel29
         '
@@ -323,16 +521,16 @@ Partial Class Form1
         '
         'BunifuCheckbox3
         '
-        Me.BunifuCheckbox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox3.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox3.Checked = False
-        Me.BunifuCheckbox3.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox3.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox3, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox3, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox3, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox3, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox3.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.BunifuCheckbox3.Location = New System.Drawing.Point(69, 45)
         Me.BunifuCheckbox3.Name = "BunifuCheckbox3"
         Me.BunifuCheckbox3.Size = New System.Drawing.Size(20, 20)
@@ -354,47 +552,29 @@ Partial Class Form1
         Me.BunifuCustomLabel22.TabIndex = 18
         Me.BunifuCustomLabel22.Text = "Disponibilidad:"
         '
-        'Lbl_Filtro
+        'Pn_TipoDeRestaurante
         '
-        Me.Lbl_Filtro.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.Lbl_Filtro.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
-        Me.Lbl_Filtro.Font = New System.Drawing.Font("PT Sans", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Filtro.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.Lbl_Filtro.Location = New System.Drawing.Point(141, 56)
-        Me.Lbl_Filtro.Name = "Lbl_Filtro"
-        Me.Lbl_Filtro.Size = New System.Drawing.Size(211, 34)
-        Me.Lbl_Filtro.TabIndex = 9
-        Me.Lbl_Filtro.Text = "Filtre Sus Gustos"
-        Me.Lbl_Filtro.Visible = False
-        '
-        'Pn_TipoDeComida
-        '
-        Me.Pn_TipoDeComida.AutoSize = True
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCustomLabel5)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCheckbox1)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCheckbox6)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCustomLabel6)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCustomLabel11)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCheckbox2)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCheckbox5)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCustomLabel9)
-        Me.Pn_TipoDeComida.Controls.Add(Me.BunifuCustomLabel10)
-        Me.Pn_TipoDeComida.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_TipoDeComida, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.Pn_TipoDeComida, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.Pn_TipoDeComida, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.Pn_TipoDeComida, BunifuAnimatorNS.DecorationType.None)
-        Me.Pn_TipoDeComida.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_TipoDeComida.Location = New System.Drawing.Point(3, 3)
-        Me.Pn_TipoDeComida.Name = "Pn_TipoDeComida"
-        Me.Pn_TipoDeComida.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
-        Me.Pn_TipoDeComida.Size = New System.Drawing.Size(352, 163)
-        Me.Pn_TipoDeComida.TabIndex = 23
-        Me.Pn_TipoDeComida.Visible = False
+        Me.Pn_TipoDeRestaurante.AutoSize = True
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCustomLabel5)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCheckbox1)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCustomLabel6)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCheckbox2)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCheckbox5)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCustomLabel9)
+        Me.Pn_TipoDeRestaurante.Controls.Add(Me.BunifuCustomLabel10)
+        Me.Pn_TipoDeRestaurante.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_TipoDeRestaurante, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.Pn_TipoDeRestaurante, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.Pn_TipoDeRestaurante, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.Pn_TipoDeRestaurante, BunifuAnimatorNS.DecorationType.None)
+        Me.Pn_TipoDeRestaurante.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_TipoDeRestaurante.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.Pn_TipoDeRestaurante.Location = New System.Drawing.Point(3, 3)
+        Me.Pn_TipoDeRestaurante.Name = "Pn_TipoDeRestaurante"
+        Me.Pn_TipoDeRestaurante.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
+        Me.Pn_TipoDeRestaurante.Size = New System.Drawing.Size(352, 135)
+        Me.Pn_TipoDeRestaurante.TabIndex = 23
+        Me.Pn_TipoDeRestaurante.Visible = False
         '
         'BunifuCustomLabel5
         '
@@ -408,43 +588,26 @@ Partial Class Form1
         Me.BunifuCustomLabel5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCustomLabel5.Location = New System.Drawing.Point(121, 41)
         Me.BunifuCustomLabel5.Name = "BunifuCustomLabel5"
-        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(80, 28)
+        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(161, 28)
         Me.BunifuCustomLabel5.TabIndex = 10
-        Me.BunifuCustomLabel5.Text = "Rápida"
+        Me.BunifuCustomLabel5.Text = "Comida Rápida"
         '
         'BunifuCheckbox1
         '
-        Me.BunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox1.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox1.Checked = False
-        Me.BunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox1.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox1, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox1, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox1, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox1, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox1.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox1.ForeColor = System.Drawing.Color.Black
         Me.BunifuCheckbox1.Location = New System.Drawing.Point(69, 45)
         Me.BunifuCheckbox1.Name = "BunifuCheckbox1"
         Me.BunifuCheckbox1.Size = New System.Drawing.Size(20, 20)
         Me.BunifuCheckbox1.TabIndex = 11
-        '
-        'BunifuCheckbox6
-        '
-        Me.BunifuCheckbox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox6.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox6.Checked = False
-        Me.BunifuCheckbox6.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox6, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox6.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox6.Location = New System.Drawing.Point(69, 129)
-        Me.BunifuCheckbox6.Name = "BunifuCheckbox6"
-        Me.BunifuCheckbox6.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox6.TabIndex = 22
         '
         'BunifuCustomLabel6
         '
@@ -458,38 +621,22 @@ Partial Class Form1
         Me.BunifuCustomLabel6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCustomLabel6.Location = New System.Drawing.Point(122, 69)
         Me.BunifuCustomLabel6.Name = "BunifuCustomLabel6"
-        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(100, 28)
+        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(91, 28)
         Me.BunifuCustomLabel6.TabIndex = 12
-        Me.BunifuCustomLabel6.Text = "Mariscos"
-        '
-        'BunifuCustomLabel11
-        '
-        Me.BunifuCustomLabel11.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel11.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel11, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel11.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel11.Location = New System.Drawing.Point(123, 125)
-        Me.BunifuCustomLabel11.Name = "BunifuCustomLabel11"
-        Me.BunifuCustomLabel11.Size = New System.Drawing.Size(130, 28)
-        Me.BunifuCustomLabel11.TabIndex = 21
-        Me.BunifuCustomLabel11.Text = "Vegetariana"
+        Me.BunifuCustomLabel6.Text = "Familiar"
         '
         'BunifuCheckbox2
         '
-        Me.BunifuCheckbox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox2.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox2.Checked = False
-        Me.BunifuCheckbox2.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox2.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox2, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox2, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox2, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox2, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox2.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.BunifuCheckbox2.Location = New System.Drawing.Point(69, 73)
         Me.BunifuCheckbox2.Name = "BunifuCheckbox2"
         Me.BunifuCheckbox2.Size = New System.Drawing.Size(20, 20)
@@ -497,16 +644,16 @@ Partial Class Form1
         '
         'BunifuCheckbox5
         '
-        Me.BunifuCheckbox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox5.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox5.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox5.Checked = False
-        Me.BunifuCheckbox5.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox5.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox5, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox5, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox5, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox5, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox5.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.BunifuCheckbox5.Location = New System.Drawing.Point(69, 101)
         Me.BunifuCheckbox5.Name = "BunifuCheckbox5"
         Me.BunifuCheckbox5.Size = New System.Drawing.Size(20, 20)
@@ -524,9 +671,9 @@ Partial Class Form1
         Me.BunifuCustomLabel9.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCustomLabel9.Location = New System.Drawing.Point(36, 3)
         Me.BunifuCustomLabel9.Name = "BunifuCustomLabel9"
-        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(174, 28)
+        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(219, 28)
         Me.BunifuCustomLabel9.TabIndex = 18
-        Me.BunifuCustomLabel9.Text = "Tipo de Comida:"
+        Me.BunifuCustomLabel9.Text = "Tipo de Restaurante:"
         '
         'BunifuCustomLabel10
         '
@@ -540,9 +687,9 @@ Partial Class Form1
         Me.BunifuCustomLabel10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCustomLabel10.Location = New System.Drawing.Point(123, 97)
         Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
-        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(101, 28)
+        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(103, 28)
         Me.BunifuCustomLabel10.TabIndex = 19
-        Me.BunifuCustomLabel10.Text = "Gourmet"
+        Me.BunifuCustomLabel10.Text = "Temático"
         '
         'Pn_Presupuesto
         '
@@ -556,7 +703,7 @@ Partial Class Form1
         Me.SideMenuAnimator2.SetDecoration(Me.Pn_Presupuesto, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Pn_Presupuesto, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_Presupuesto.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_Presupuesto.Location = New System.Drawing.Point(3, 172)
+        Me.Pn_Presupuesto.Location = New System.Drawing.Point(3, 144)
         Me.Pn_Presupuesto.Name = "Pn_Presupuesto"
         Me.Pn_Presupuesto.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Me.Pn_Presupuesto.Size = New System.Drawing.Size(352, 116)
@@ -589,7 +736,7 @@ Partial Class Form1
         Me.SideMenuAnimator.SetDecoration(Me.Slider_Presupuesto, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.Slider_Presupuesto, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator2.SetDecoration(Me.Slider_Presupuesto, BunifuAnimatorNS.DecorationType.None)
-        Me.Slider_Presupuesto.IndicatorColor = System.Drawing.Color.SeaGreen
+        Me.Slider_Presupuesto.IndicatorColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Slider_Presupuesto.Location = New System.Drawing.Point(69, 73)
         Me.Slider_Presupuesto.MaximumValue = 100
         Me.Slider_Presupuesto.Name = "Slider_Presupuesto"
@@ -643,7 +790,7 @@ Partial Class Form1
         Me.SideMenuAnimator2.SetDecoration(Me.Pn_TipoDeDespacho, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Pn_TipoDeDespacho, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_TipoDeDespacho.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_TipoDeDespacho.Location = New System.Drawing.Point(3, 294)
+        Me.Pn_TipoDeDespacho.Location = New System.Drawing.Point(3, 266)
         Me.Pn_TipoDeDespacho.Name = "Pn_TipoDeDespacho"
         Me.Pn_TipoDeDespacho.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Me.Pn_TipoDeDespacho.Size = New System.Drawing.Size(352, 107)
@@ -668,16 +815,16 @@ Partial Class Form1
         '
         'Cb_EntregaDomicilio
         '
-        Me.Cb_EntregaDomicilio.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.Cb_EntregaDomicilio.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Cb_EntregaDomicilio.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.Cb_EntregaDomicilio.Checked = False
-        Me.Cb_EntregaDomicilio.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.Cb_EntregaDomicilio.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Cb_EntregaDomicilio.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.Cb_EntregaDomicilio, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.Cb_EntregaDomicilio, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Cb_EntregaDomicilio, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.Cb_EntregaDomicilio, BunifuAnimatorNS.DecorationType.None)
-        Me.Cb_EntregaDomicilio.ForeColor = System.Drawing.Color.White
+        Me.Cb_EntregaDomicilio.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Cb_EntregaDomicilio.Location = New System.Drawing.Point(69, 45)
         Me.Cb_EntregaDomicilio.Name = "Cb_EntregaDomicilio"
         Me.Cb_EntregaDomicilio.Size = New System.Drawing.Size(20, 20)
@@ -701,16 +848,16 @@ Partial Class Form1
         '
         'BunifuCheckbox7
         '
-        Me.BunifuCheckbox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox7.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox7.Checked = False
-        Me.BunifuCheckbox7.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox7.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox7, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox7.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.BunifuCheckbox7.Location = New System.Drawing.Point(69, 73)
         Me.BunifuCheckbox7.Name = "BunifuCheckbox7"
         Me.BunifuCheckbox7.Size = New System.Drawing.Size(20, 20)
@@ -746,11 +893,12 @@ Partial Class Form1
         Me.SideMenuAnimator2.SetDecoration(Me.Pn_FormaDePago, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Pn_FormaDePago, BunifuAnimatorNS.DecorationType.None)
         Me.Pn_FormaDePago.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_FormaDePago.Location = New System.Drawing.Point(3, 407)
+        Me.Pn_FormaDePago.Location = New System.Drawing.Point(3, 379)
         Me.Pn_FormaDePago.Name = "Pn_FormaDePago"
         Me.Pn_FormaDePago.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
         Me.Pn_FormaDePago.Size = New System.Drawing.Size(352, 107)
         Me.Pn_FormaDePago.TabIndex = 25
+        Me.Pn_FormaDePago.Visible = False
         '
         'Lbl_TargetaCredito
         '
@@ -770,16 +918,16 @@ Partial Class Form1
         '
         'BunifuCheckbox4
         '
-        Me.BunifuCheckbox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox4.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox4.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.BunifuCheckbox4.Checked = False
-        Me.BunifuCheckbox4.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.BunifuCheckbox4.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.BunifuCheckbox4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox4, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox4, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox4, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox4, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox4.ForeColor = System.Drawing.Color.White
+        Me.BunifuCheckbox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.BunifuCheckbox4.Location = New System.Drawing.Point(69, 45)
         Me.BunifuCheckbox4.Name = "BunifuCheckbox4"
         Me.BunifuCheckbox4.Size = New System.Drawing.Size(20, 20)
@@ -803,16 +951,16 @@ Partial Class Form1
         '
         'Cb_
         '
-        Me.Cb_.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.Cb_.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Cb_.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.Cb_.Checked = False
-        Me.Cb_.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
+        Me.Cb_.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Cb_.Cursor = System.Windows.Forms.Cursors.Hand
         Me.SideMenuAnimator2.SetDecoration(Me.Cb_, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.Cb_, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.Cb_, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuHideAnimator.SetDecoration(Me.Cb_, BunifuAnimatorNS.DecorationType.None)
-        Me.Cb_.ForeColor = System.Drawing.Color.White
+        Me.Cb_.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
         Me.Cb_.Location = New System.Drawing.Point(69, 73)
         Me.Cb_.Name = "Cb_"
         Me.Cb_.Size = New System.Drawing.Size(20, 20)
@@ -834,6 +982,144 @@ Partial Class Form1
         Me.Lbl_FormasDePago.TabIndex = 18
         Me.Lbl_FormasDePago.Text = "Formas de Pago:"
         '
+        'Pn_ComidaDelDia
+        '
+        Me.Pn_ComidaDelDia.AutoSize = True
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox12)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel33)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox10)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel32)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel21)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox8)
+        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel28)
+        Me.Pn_ComidaDelDia.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
+        Me.Pn_ComidaDelDia.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_ComidaDelDia.Location = New System.Drawing.Point(3, 603)
+        Me.Pn_ComidaDelDia.Name = "Pn_ComidaDelDia"
+        Me.Pn_ComidaDelDia.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
+        Me.Pn_ComidaDelDia.Size = New System.Drawing.Size(352, 135)
+        Me.Pn_ComidaDelDia.TabIndex = 27
+        Me.Pn_ComidaDelDia.Visible = False
+        '
+        'BunifuCheckbox12
+        '
+        Me.BunifuCheckbox12.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox12.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox12.Checked = False
+        Me.BunifuCheckbox12.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox12.Location = New System.Drawing.Point(70, 101)
+        Me.BunifuCheckbox12.Name = "BunifuCheckbox12"
+        Me.BunifuCheckbox12.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox12.TabIndex = 22
+        '
+        'BunifuCustomLabel33
+        '
+        Me.BunifuCustomLabel33.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel33.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel33.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel33.Location = New System.Drawing.Point(122, 97)
+        Me.BunifuCustomLabel33.Name = "BunifuCustomLabel33"
+        Me.BunifuCustomLabel33.Size = New System.Drawing.Size(62, 28)
+        Me.BunifuCustomLabel33.TabIndex = 21
+        Me.BunifuCustomLabel33.Text = "Cena"
+        '
+        'BunifuCheckbox10
+        '
+        Me.BunifuCheckbox10.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox10.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox10.Checked = False
+        Me.BunifuCheckbox10.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox10.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox10.Location = New System.Drawing.Point(70, 73)
+        Me.BunifuCheckbox10.Name = "BunifuCheckbox10"
+        Me.BunifuCheckbox10.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox10.TabIndex = 20
+        '
+        'BunifuCustomLabel32
+        '
+        Me.BunifuCustomLabel32.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel32.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel32.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel32.Location = New System.Drawing.Point(122, 69)
+        Me.BunifuCustomLabel32.Name = "BunifuCustomLabel32"
+        Me.BunifuCustomLabel32.Size = New System.Drawing.Size(107, 28)
+        Me.BunifuCustomLabel32.TabIndex = 19
+        Me.BunifuCustomLabel32.Text = "Almuerzo"
+        '
+        'BunifuCustomLabel21
+        '
+        Me.BunifuCustomLabel21.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel21.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel21.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel21.Location = New System.Drawing.Point(122, 41)
+        Me.BunifuCustomLabel21.Name = "BunifuCustomLabel21"
+        Me.BunifuCustomLabel21.Size = New System.Drawing.Size(111, 28)
+        Me.BunifuCustomLabel21.TabIndex = 10
+        Me.BunifuCustomLabel21.Text = "Desayuno"
+        '
+        'BunifuCheckbox8
+        '
+        Me.BunifuCheckbox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox8.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
+        Me.BunifuCheckbox8.Checked = False
+        Me.BunifuCheckbox8.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(214, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCheckbox8.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCheckbox8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.BunifuCheckbox8.Location = New System.Drawing.Point(70, 45)
+        Me.BunifuCheckbox8.Name = "BunifuCheckbox8"
+        Me.BunifuCheckbox8.Size = New System.Drawing.Size(20, 20)
+        Me.BunifuCheckbox8.TabIndex = 11
+        '
+        'BunifuCustomLabel28
+        '
+        Me.BunifuCustomLabel28.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.BunifuCustomLabel28.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel28.Font = New System.Drawing.Font("Open Sans Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel28.Location = New System.Drawing.Point(36, 3)
+        Me.BunifuCustomLabel28.Name = "BunifuCustomLabel28"
+        Me.BunifuCustomLabel28.Size = New System.Drawing.Size(167, 28)
+        Me.BunifuCustomLabel28.TabIndex = 18
+        Me.BunifuCustomLabel28.Text = "Comida del día:"
+        '
         'Panel3
         '
         Me.Panel3.Controls.Add(Me.Btn_Menu)
@@ -848,6 +1134,23 @@ Partial Class Form1
         Me.Panel3.Name = "Panel3"
         Me.Panel3.Size = New System.Drawing.Size(358, 113)
         Me.Panel3.TabIndex = 27
+        '
+        'Lbl_Filtro
+        '
+        Me.Lbl_Filtro.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Lbl_Filtro.AutoSize = True
+        Me.SideMenuAnimator2.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.Lbl_Filtro, BunifuAnimatorNS.DecorationType.None)
+        Me.Lbl_Filtro.Font = New System.Drawing.Font("PT Sans", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lbl_Filtro.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.Lbl_Filtro.Location = New System.Drawing.Point(141, 56)
+        Me.Lbl_Filtro.Name = "Lbl_Filtro"
+        Me.Lbl_Filtro.Size = New System.Drawing.Size(211, 34)
+        Me.Lbl_Filtro.TabIndex = 9
+        Me.Lbl_Filtro.Text = "Filtre Sus Gustos"
+        Me.Lbl_Filtro.Visible = False
         '
         'BunifuElipse1
         '
@@ -1282,142 +1585,75 @@ Partial Class Form1
         Me.BunifuCustomLabel26.TabIndex = 1
         Me.BunifuCustomLabel26.Text = "Subway"
         '
-        'Pn_ComidaDelDia
+        'TableLayoutPanel9
         '
-        Me.Pn_ComidaDelDia.AutoSize = True
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox12)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel33)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox10)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel32)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel21)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCheckbox8)
-        Me.Pn_ComidaDelDia.Controls.Add(Me.BunifuCustomLabel28)
-        Me.Pn_ComidaDelDia.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.Pn_ComidaDelDia, BunifuAnimatorNS.DecorationType.None)
-        Me.Pn_ComidaDelDia.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_ComidaDelDia.Location = New System.Drawing.Point(3, 631)
-        Me.Pn_ComidaDelDia.Name = "Pn_ComidaDelDia"
-        Me.Pn_ComidaDelDia.Padding = New System.Windows.Forms.Padding(0, 0, 0, 10)
-        Me.Pn_ComidaDelDia.Size = New System.Drawing.Size(352, 135)
-        Me.Pn_ComidaDelDia.TabIndex = 27
+        Me.TableLayoutPanel9.ColumnCount = 1
+        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel9.Controls.Add(Me.BunifuCustomLabel24, 0, 1)
+        Me.TableLayoutPanel9.Controls.Add(Me.BunifuImageButton8, 0, 0)
+        Me.SideMenuHideAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
+        Me.TableLayoutPanel9.Location = New System.Drawing.Point(3, 515)
+        Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
+        Me.TableLayoutPanel9.RowCount = 2
+        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
+        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
+        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel9.Size = New System.Drawing.Size(219, 250)
+        Me.TableLayoutPanel9.TabIndex = 9
         '
-        'BunifuCheckbox12
+        'BunifuCustomLabel24
         '
-        Me.BunifuCheckbox12.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox12.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox12.Checked = False
-        Me.BunifuCheckbox12.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox12.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox12, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox12.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox12.Location = New System.Drawing.Point(70, 101)
-        Me.BunifuCheckbox12.Name = "BunifuCheckbox12"
-        Me.BunifuCheckbox12.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox12.TabIndex = 22
+        Me.BunifuCustomLabel24.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuCustomLabel24.AutoSize = True
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel24.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel24.Location = New System.Drawing.Point(52, 217)
+        Me.BunifuCustomLabel24.Name = "BunifuCustomLabel24"
+        Me.BunifuCustomLabel24.Size = New System.Drawing.Size(114, 28)
+        Me.BunifuCustomLabel24.TabIndex = 1
+        Me.BunifuCustomLabel24.Text = "El Mirador"
         '
-        'BunifuCustomLabel33
+        'TableLayoutPanel10
         '
-        Me.BunifuCustomLabel33.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel33.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel33, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel33.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel33.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel33.Location = New System.Drawing.Point(122, 97)
-        Me.BunifuCustomLabel33.Name = "BunifuCustomLabel33"
-        Me.BunifuCustomLabel33.Size = New System.Drawing.Size(62, 28)
-        Me.BunifuCustomLabel33.TabIndex = 21
-        Me.BunifuCustomLabel33.Text = "Cena"
+        Me.TableLayoutPanel10.ColumnCount = 1
+        Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel10.Controls.Add(Me.BunifuCustomLabel37, 0, 1)
+        Me.TableLayoutPanel10.Controls.Add(Me.BunifuImageButton9, 0, 0)
+        Me.SideMenuHideAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
+        Me.TableLayoutPanel10.Location = New System.Drawing.Point(228, 515)
+        Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
+        Me.TableLayoutPanel10.RowCount = 2
+        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
+        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
+        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel10.Size = New System.Drawing.Size(219, 250)
+        Me.TableLayoutPanel10.TabIndex = 10
         '
-        'BunifuCheckbox10
+        'BunifuCustomLabel37
         '
-        Me.BunifuCheckbox10.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox10.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox10.Checked = False
-        Me.BunifuCheckbox10.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox10.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox10, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox10.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox10.Location = New System.Drawing.Point(70, 73)
-        Me.BunifuCheckbox10.Name = "BunifuCheckbox10"
-        Me.BunifuCheckbox10.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox10.TabIndex = 20
-        '
-        'BunifuCustomLabel32
-        '
-        Me.BunifuCustomLabel32.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel32.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel32, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel32.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel32.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel32.Location = New System.Drawing.Point(122, 69)
-        Me.BunifuCustomLabel32.Name = "BunifuCustomLabel32"
-        Me.BunifuCustomLabel32.Size = New System.Drawing.Size(107, 28)
-        Me.BunifuCustomLabel32.TabIndex = 19
-        Me.BunifuCustomLabel32.Text = "Almuerzo"
-        '
-        'BunifuCustomLabel21
-        '
-        Me.BunifuCustomLabel21.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel21.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel21, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel21.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel21.Location = New System.Drawing.Point(122, 41)
-        Me.BunifuCustomLabel21.Name = "BunifuCustomLabel21"
-        Me.BunifuCustomLabel21.Size = New System.Drawing.Size(111, 28)
-        Me.BunifuCustomLabel21.TabIndex = 10
-        Me.BunifuCustomLabel21.Text = "Desayuno"
-        '
-        'BunifuCheckbox8
-        '
-        Me.BunifuCheckbox8.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox8.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox8.Checked = False
-        Me.BunifuCheckbox8.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox8, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox8.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox8.Location = New System.Drawing.Point(70, 45)
-        Me.BunifuCheckbox8.Name = "BunifuCheckbox8"
-        Me.BunifuCheckbox8.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox8.TabIndex = 11
-        '
-        'BunifuCustomLabel28
-        '
-        Me.BunifuCustomLabel28.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel28.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel28, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel28.Font = New System.Drawing.Font("Open Sans Semibold", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel28.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel28.Location = New System.Drawing.Point(36, 3)
-        Me.BunifuCustomLabel28.Name = "BunifuCustomLabel28"
-        Me.BunifuCustomLabel28.Size = New System.Drawing.Size(167, 28)
-        Me.BunifuCustomLabel28.TabIndex = 18
-        Me.BunifuCustomLabel28.Text = "Comida del día:"
+        Me.BunifuCustomLabel37.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BunifuCustomLabel37.AutoSize = True
+        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
+        Me.BunifuCustomLabel37.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel37.Location = New System.Drawing.Point(31, 217)
+        Me.BunifuCustomLabel37.Name = "BunifuCustomLabel37"
+        Me.BunifuCustomLabel37.Size = New System.Drawing.Size(157, 28)
+        Me.BunifuCustomLabel37.TabIndex = 1
+        Me.BunifuCustomLabel37.Text = "Salsa y Carbón"
         '
         'LogoMenuAnimator
         '
@@ -1461,273 +1697,29 @@ Partial Class Form1
         Animation1.TransparencyCoeff = 0!
         Me.SideMenuAnimator2.DefaultAnimation = Animation1
         '
-        'TableLayoutPanel9
+        'SideMenuHideAnimator
         '
-        Me.TableLayoutPanel9.ColumnCount = 1
-        Me.TableLayoutPanel9.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel9.Controls.Add(Me.BunifuCustomLabel24, 0, 1)
-        Me.TableLayoutPanel9.Controls.Add(Me.BunifuImageButton8, 0, 0)
-        Me.SideMenuHideAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.TableLayoutPanel9, BunifuAnimatorNS.DecorationType.None)
-        Me.TableLayoutPanel9.Location = New System.Drawing.Point(3, 515)
-        Me.TableLayoutPanel9.Name = "TableLayoutPanel9"
-        Me.TableLayoutPanel9.RowCount = 2
-        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
-        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
-        Me.TableLayoutPanel9.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel9.Size = New System.Drawing.Size(219, 250)
-        Me.TableLayoutPanel9.TabIndex = 9
-        '
-        'BunifuCustomLabel24
-        '
-        Me.BunifuCustomLabel24.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.BunifuCustomLabel24.AutoSize = True
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel24, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel24.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel24.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel24.Location = New System.Drawing.Point(52, 217)
-        Me.BunifuCustomLabel24.Name = "BunifuCustomLabel24"
-        Me.BunifuCustomLabel24.Size = New System.Drawing.Size(114, 28)
-        Me.BunifuCustomLabel24.TabIndex = 1
-        Me.BunifuCustomLabel24.Text = "El Mirador"
-        '
-        'BunifuCustomLabel25
-        '
-        Me.BunifuCustomLabel25.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel25.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel25, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel25.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel25.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel25.Location = New System.Drawing.Point(123, 105)
-        Me.BunifuCustomLabel25.Name = "BunifuCustomLabel25"
-        Me.BunifuCustomLabel25.Size = New System.Drawing.Size(61, 28)
-        Me.BunifuCustomLabel25.TabIndex = 27
-        Me.BunifuCustomLabel25.Text = "Pollo"
-        '
-        'BunifuCustomLabel27
-        '
-        Me.BunifuCustomLabel27.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel27.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel27, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel27.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel27.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel27.Location = New System.Drawing.Point(123, 75)
-        Me.BunifuCustomLabel27.Name = "BunifuCustomLabel27"
-        Me.BunifuCustomLabel27.Size = New System.Drawing.Size(81, 28)
-        Me.BunifuCustomLabel27.TabIndex = 25
-        Me.BunifuCustomLabel27.Text = "Carnes"
-        '
-        'BunifuCustomLabel30
-        '
-        Me.BunifuCustomLabel30.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel30.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel30, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel30.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel30.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel30.Location = New System.Drawing.Point(123, 45)
-        Me.BunifuCustomLabel30.Name = "BunifuCustomLabel30"
-        Me.BunifuCustomLabel30.Size = New System.Drawing.Size(100, 28)
-        Me.BunifuCustomLabel30.TabIndex = 23
-        Me.BunifuCustomLabel30.Text = "Mariscos"
-        '
-        'BunifuCustomLabel34
-        '
-        Me.BunifuCustomLabel34.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel34.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel34, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel34.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel34.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel34.Location = New System.Drawing.Point(123, 165)
-        Me.BunifuCustomLabel34.Name = "BunifuCustomLabel34"
-        Me.BunifuCustomLabel34.Size = New System.Drawing.Size(163, 28)
-        Me.BunifuCustomLabel34.TabIndex = 31
-        Me.BunifuCustomLabel34.Text = "Hamburguesas"
-        '
-        'BunifuCustomLabel35
-        '
-        Me.BunifuCustomLabel35.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel35.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel35, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel35.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel35.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel35.Location = New System.Drawing.Point(123, 135)
-        Me.BunifuCustomLabel35.Name = "BunifuCustomLabel35"
-        Me.BunifuCustomLabel35.Size = New System.Drawing.Size(151, 28)
-        Me.BunifuCustomLabel35.TabIndex = 29
-        Me.BunifuCustomLabel35.Text = "Emparedados"
-        '
-        'BunifuCustomLabel36
-        '
-        Me.BunifuCustomLabel36.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.BunifuCustomLabel36.AutoSize = True
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel36, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel36.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel36.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel36.Location = New System.Drawing.Point(123, 195)
-        Me.BunifuCustomLabel36.Name = "BunifuCustomLabel36"
-        Me.BunifuCustomLabel36.Size = New System.Drawing.Size(65, 28)
-        Me.BunifuCustomLabel36.TabIndex = 33
-        Me.BunifuCustomLabel36.Text = "Sushi"
-        '
-        'BunifuCheckbox17
-        '
-        Me.BunifuCheckbox17.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox17.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox17.Checked = False
-        Me.BunifuCheckbox17.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox17.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox17, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox17.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox17.Location = New System.Drawing.Point(71, 49)
-        Me.BunifuCheckbox17.Name = "BunifuCheckbox17"
-        Me.BunifuCheckbox17.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox17.TabIndex = 35
-        '
-        'BunifuCheckbox18
-        '
-        Me.BunifuCheckbox18.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox18.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox18.Checked = False
-        Me.BunifuCheckbox18.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox18.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox18, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox18.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox18.Location = New System.Drawing.Point(71, 79)
-        Me.BunifuCheckbox18.Name = "BunifuCheckbox18"
-        Me.BunifuCheckbox18.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox18.TabIndex = 36
-        '
-        'BunifuCheckbox9
-        '
-        Me.BunifuCheckbox9.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox9.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox9.Checked = False
-        Me.BunifuCheckbox9.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox9, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox9.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox9.Location = New System.Drawing.Point(71, 109)
-        Me.BunifuCheckbox9.Name = "BunifuCheckbox9"
-        Me.BunifuCheckbox9.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox9.TabIndex = 37
-        '
-        'BunifuCheckbox11
-        '
-        Me.BunifuCheckbox11.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox11.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox11.Checked = False
-        Me.BunifuCheckbox11.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox11.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox11, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox11.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox11.Location = New System.Drawing.Point(71, 139)
-        Me.BunifuCheckbox11.Name = "BunifuCheckbox11"
-        Me.BunifuCheckbox11.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox11.TabIndex = 38
-        '
-        'BunifuCheckbox13
-        '
-        Me.BunifuCheckbox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox13.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox13.Checked = False
-        Me.BunifuCheckbox13.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox13.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox13, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox13.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox13.Location = New System.Drawing.Point(71, 169)
-        Me.BunifuCheckbox13.Name = "BunifuCheckbox13"
-        Me.BunifuCheckbox13.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox13.TabIndex = 39
-        '
-        'BunifuCheckbox14
-        '
-        Me.BunifuCheckbox14.BackColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox14.ChechedOffColor = System.Drawing.Color.FromArgb(CType(CType(132, Byte), Integer), CType(CType(135, Byte), Integer), CType(CType(140, Byte), Integer))
-        Me.BunifuCheckbox14.Checked = False
-        Me.BunifuCheckbox14.CheckedOnColor = System.Drawing.Color.FromArgb(CType(CType(51, Byte), Integer), CType(CType(205, Byte), Integer), CType(CType(117, Byte), Integer))
-        Me.BunifuCheckbox14.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCheckbox14, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCheckbox14.ForeColor = System.Drawing.Color.White
-        Me.BunifuCheckbox14.Location = New System.Drawing.Point(71, 199)
-        Me.BunifuCheckbox14.Name = "BunifuCheckbox14"
-        Me.BunifuCheckbox14.Size = New System.Drawing.Size(20, 20)
-        Me.BunifuCheckbox14.TabIndex = 40
-        '
-        'TableLayoutPanel10
-        '
-        Me.TableLayoutPanel10.ColumnCount = 1
-        Me.TableLayoutPanel10.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel10.Controls.Add(Me.BunifuCustomLabel37, 0, 1)
-        Me.TableLayoutPanel10.Controls.Add(Me.BunifuImageButton9, 0, 0)
-        Me.SideMenuHideAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.TableLayoutPanel10, BunifuAnimatorNS.DecorationType.None)
-        Me.TableLayoutPanel10.Location = New System.Drawing.Point(228, 515)
-        Me.TableLayoutPanel10.Name = "TableLayoutPanel10"
-        Me.TableLayoutPanel10.RowCount = 2
-        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
-        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
-        Me.TableLayoutPanel10.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel10.Size = New System.Drawing.Size(219, 250)
-        Me.TableLayoutPanel10.TabIndex = 10
-        '
-        'BunifuCustomLabel37
-        '
-        Me.BunifuCustomLabel37.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.BunifuCustomLabel37.AutoSize = True
-        Me.SideMenuHideAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.BunifuCustomLabel37, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuCustomLabel37.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel37.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel37.Location = New System.Drawing.Point(31, 217)
-        Me.BunifuCustomLabel37.Name = "BunifuCustomLabel37"
-        Me.BunifuCustomLabel37.Size = New System.Drawing.Size(157, 28)
-        Me.BunifuCustomLabel37.TabIndex = 1
-        Me.BunifuCustomLabel37.Text = "Salsa y Carbón"
+        Me.SideMenuHideAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
+        Me.SideMenuHideAnimator.Cursor = Nothing
+        Animation4.AnimateOnlyDifferences = True
+        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
+        Animation4.LeafCoeff = 1.0!
+        Animation4.MaxTime = 1.0!
+        Animation4.MinTime = 0!
+        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
+        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
+        Animation4.MosaicSize = 0
+        Animation4.Padding = New System.Windows.Forms.Padding(0)
+        Animation4.RotateCoeff = 0!
+        Animation4.RotateLimit = 0!
+        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
+        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
+        Animation4.TimeCoeff = 0!
+        Animation4.TransparencyCoeff = 0!
+        Me.SideMenuHideAnimator.DefaultAnimation = Animation4
+        Me.SideMenuHideAnimator.Interval = 5
+        Me.SideMenuHideAnimator.MaxAnimationTime = 20
+        Me.SideMenuHideAnimator.TimeStep = 0.001!
         '
         'Pic_McDonalds
         '
@@ -1857,7 +1849,7 @@ Partial Class Form1
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuImageButton1, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuImageButton1, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuImageButton1, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuImageButton1.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_eventoscarolina_jpg
+        Me.BunifuImageButton1.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_eventoscarolina2_jpg
         Me.BunifuImageButton1.ImageActive = Nothing
         Me.BunifuImageButton1.Location = New System.Drawing.Point(10, 11)
         Me.BunifuImageButton1.Name = "BunifuImageButton1"
@@ -1897,7 +1889,7 @@ Partial Class Form1
         Me.LogoMenuAnimator.SetDecoration(Me.BunifuImageButton8, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.BunifuImageButton8, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator2.SetDecoration(Me.BunifuImageButton8, BunifuAnimatorNS.DecorationType.None)
-        Me.BunifuImageButton8.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_mirador
+        Me.BunifuImageButton8.Image = CType(resources.GetObject("BunifuImageButton8.Image"), System.Drawing.Image)
         Me.BunifuImageButton8.ImageActive = Nothing
         Me.BunifuImageButton8.Location = New System.Drawing.Point(10, 11)
         Me.BunifuImageButton8.Name = "BunifuImageButton8"
@@ -2025,36 +2017,13 @@ Partial Class Form1
         Me.SideMenuHideAnimator.SetDecoration(Me.PictureBox2, BunifuAnimatorNS.DecorationType.None)
         Me.SideMenuAnimator.SetDecoration(Me.PictureBox2, BunifuAnimatorNS.DecorationType.None)
         Me.LogoMenuAnimator.SetDecoration(Me.PictureBox2, BunifuAnimatorNS.DecorationType.None)
-        Me.PictureBox2.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_app
+        Me.PictureBox2.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_form2
         Me.PictureBox2.Location = New System.Drawing.Point(7, 7)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
-        '
-        'SideMenuHideAnimator
-        '
-        Me.SideMenuHideAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
-        Me.SideMenuHideAnimator.Cursor = Nothing
-        Animation4.AnimateOnlyDifferences = True
-        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
-        Animation4.LeafCoeff = 1.0!
-        Animation4.MaxTime = 1.0!
-        Animation4.MinTime = 0!
-        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
-        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
-        Animation4.MosaicSize = 0
-        Animation4.Padding = New System.Windows.Forms.Padding(0, 0, 0, 0)
-        Animation4.RotateCoeff = 0!
-        Animation4.RotateLimit = 0!
-        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
-        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
-        Animation4.TimeCoeff = 0!
-        Animation4.TransparencyCoeff = 0!
-        Me.SideMenuHideAnimator.DefaultAnimation = Animation4
-        Me.SideMenuHideAnimator.Interval = 5
-        Me.SideMenuHideAnimator.MaxAnimationTime = 20
-        Me.SideMenuHideAnimator.TimeStep = 0.001!
         '
         'Form1
         '
@@ -2082,14 +2051,16 @@ Partial Class Form1
         Me.Pn_Especialidad.PerformLayout()
         Me.Pn_Disponibilidad.ResumeLayout(False)
         Me.Pn_Disponibilidad.PerformLayout()
-        Me.Pn_TipoDeComida.ResumeLayout(False)
-        Me.Pn_TipoDeComida.PerformLayout()
+        Me.Pn_TipoDeRestaurante.ResumeLayout(False)
+        Me.Pn_TipoDeRestaurante.PerformLayout()
         Me.Pn_Presupuesto.ResumeLayout(False)
         Me.Pn_Presupuesto.PerformLayout()
         Me.Pn_TipoDeDespacho.ResumeLayout(False)
         Me.Pn_TipoDeDespacho.PerformLayout()
         Me.Pn_FormaDePago.ResumeLayout(False)
         Me.Pn_FormaDePago.PerformLayout()
+        Me.Pn_ComidaDelDia.ResumeLayout(False)
+        Me.Pn_ComidaDelDia.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Pn_header.ResumeLayout(False)
@@ -2113,8 +2084,6 @@ Partial Class Form1
         Me.TableLayoutPanel7.PerformLayout()
         Me.TableLayoutPanel8.ResumeLayout(False)
         Me.TableLayoutPanel8.PerformLayout()
-        Me.Pn_ComidaDelDia.ResumeLayout(False)
-        Me.Pn_ComidaDelDia.PerformLayout()
         Me.TableLayoutPanel9.ResumeLayout(False)
         Me.TableLayoutPanel9.PerformLayout()
         Me.TableLayoutPanel10.ResumeLayout(False)
@@ -2156,8 +2125,6 @@ Partial Class Form1
     Friend WithEvents BunifuCustomLabel3 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel2 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel4 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents BunifuCheckbox6 As Bunifu.Framework.UI.BunifuCheckbox
-    Friend WithEvents BunifuCustomLabel11 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCheckbox5 As Bunifu.Framework.UI.BunifuCheckbox
     Friend WithEvents BunifuCustomLabel10 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel9 As Bunifu.Framework.UI.BunifuCustomLabel
@@ -2165,7 +2132,7 @@ Partial Class Form1
     Friend WithEvents BunifuCustomLabel6 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCheckbox1 As Bunifu.Framework.UI.BunifuCheckbox
     Friend WithEvents BunifuCustomLabel5 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents Pn_TipoDeComida As Panel
+    Friend WithEvents Pn_TipoDeRestaurante As Panel
     Friend WithEvents Lbl_Filtro As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Pn_TipoDeDespacho As Panel
     Friend WithEvents BunifuCustomLabel7 As Bunifu.Framework.UI.BunifuCustomLabel

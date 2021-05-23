@@ -33,7 +33,7 @@
     End Sub
 
     Private Sub CambiarVisibilidadMenuFiltros(activo As Boolean)
-        Pn_TipoDeComida.Visible = activo
+        Pn_TipoDeRestaurante.Visible = activo
         Pn_TipoDeDespacho.Visible = activo
         Pn_Presupuesto.Visible = activo
         Pn_Disponibilidad.Visible = activo
