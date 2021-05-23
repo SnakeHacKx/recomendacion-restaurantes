@@ -20,7 +20,7 @@
             SideMenuAnimator.ShowSync(Pn_SideMenu)
             LogoMenuAnimator.ShowSync(Picture_Logo)
         Else
-            'LogoMenuAnimator.Hide(Picture_Logo)
+            SideMenuHideAnimator.HideSync(Pn_SideMenu)
             Pn_Filtros.AutoScroll = False
 
             CambiarVisibilidadMenuFiltros(False)
@@ -33,11 +33,13 @@
     End Sub
 
     Private Sub CambiarVisibilidadMenuFiltros(activo As Boolean)
-        Pn_Restaurantes.Visible = activo
         Pn_TipoDeComida.Visible = activo
         Pn_TipoDeDespacho.Visible = activo
         Pn_Presupuesto.Visible = activo
-        Pn_CantidadDePersonas.Visible = activo
+        Pn_Disponibilidad.Visible = activo
+        Pn_ComidaDelDia.Visible = activo
+        Pn_Especialidad.Visible = activo
+        Pn_FormaDePago.Visible = activo
         Lbl_Filtro.Visible = activo
     End Sub
 
@@ -60,20 +62,6 @@
 
     Private Sub Slider_Presupuesto_ValueChanged(sender As Object, e As EventArgs) Handles Slider_Presupuesto.ValueChanged
         Lbl_ValorPresupuesto.Text = Str(Slider_Presupuesto.Value)
-    End Sub
-
-    Private Sub Cb_Grupo_OnChange(sender As Object, e As EventArgs)
-        If Cb_Grupo.Checked Then
-            Lbl_2Personas.Visible = True
-            Lbl_4Personas.Visible = True
-            Cb_2Personas.Visible = True
-            Cb_4Personas.Visible = True
-        Else
-            Lbl_2Personas.Visible = False
-            Lbl_4Personas.Visible = False
-            Cb_2Personas.Visible = False
-            Cb_4Personas.Visible = False
-        End If
     End Sub
 
 End Class
