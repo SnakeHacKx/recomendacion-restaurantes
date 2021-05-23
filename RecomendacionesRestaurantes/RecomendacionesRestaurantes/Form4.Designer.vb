@@ -26,24 +26,23 @@ Partial Class Form4
         Me.Pic_ShowImage = New System.Windows.Forms.PictureBox()
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Pn_header = New System.Windows.Forms.Panel()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Btn_Minimizar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Btn_Maximizar = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Btn_Cerrar = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
         CType(Me.Pic_ShowImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Pn_header.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Minimizar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Maximizar, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Cerrar, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Pic_ShowImage
         '
         Me.Pic_ShowImage.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pic_ShowImage.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.menu1
         Me.Pic_ShowImage.Location = New System.Drawing.Point(0, 36)
         Me.Pic_ShowImage.Name = "Pic_ShowImage"
         Me.Pic_ShowImage.Size = New System.Drawing.Size(813, 487)
@@ -69,6 +68,27 @@ Partial Class Form4
         Me.Pn_header.Name = "Pn_header"
         Me.Pn_header.Size = New System.Drawing.Size(813, 36)
         Me.Pn_header.TabIndex = 1
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_form2
+        Me.PictureBox2.Location = New System.Drawing.Point(2, 2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 9
+        Me.PictureBox2.TabStop = False
+        '
+        'BunifuCustomLabel1
+        '
+        Me.BunifuCustomLabel1.AutoSize = True
+        Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Open Sans", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(40, 4)
+        Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
+        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(211, 26)
+        Me.BunifuCustomLabel1.TabIndex = 10
+        Me.BunifuCustomLabel1.Text = "Come, visita y disfruta"
         '
         'Btn_Minimizar
         '
@@ -115,27 +135,6 @@ Partial Class Form4
         Me.Btn_Cerrar.TabStop = False
         Me.Btn_Cerrar.Zoom = 20
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_form2
-        Me.PictureBox2.Location = New System.Drawing.Point(2, 2)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(32, 32)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 9
-        Me.PictureBox2.TabStop = False
-        '
-        'BunifuCustomLabel1
-        '
-        Me.BunifuCustomLabel1.AutoSize = True
-        Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Open Sans", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(40, 4)
-        Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
-        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(211, 26)
-        Me.BunifuCustomLabel1.TabIndex = 10
-        Me.BunifuCustomLabel1.Text = "Come, visita y disfruta"
-        '
         'BunifuDragControl1
         '
         Me.BunifuDragControl1.Fixed = True
@@ -153,14 +152,15 @@ Partial Class Form4
         Me.Controls.Add(Me.Pn_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Form4"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Form4"
         CType(Me.Pic_ShowImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Pn_header.ResumeLayout(False)
         Me.Pn_header.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Btn_Minimizar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Btn_Maximizar, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Btn_Cerrar, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
