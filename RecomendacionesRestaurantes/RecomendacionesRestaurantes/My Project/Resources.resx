@@ -136,6 +136,9 @@
   <data name="ico_estambul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ico_estambul.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ico_eventoscarolina_jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_eventoscarolina.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ico_form2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ico_form2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -159,6 +162,9 @@
   </data>
   <data name="ico_ohtoro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ico_ohtoro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_subway" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_subway.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ico_terrazasushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Terraza Sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

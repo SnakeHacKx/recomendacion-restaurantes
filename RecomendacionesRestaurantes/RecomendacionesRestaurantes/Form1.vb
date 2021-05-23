@@ -11,35 +11,34 @@
 
     Private Sub Btn_Menu_Click(sender As Object, e As EventArgs) Handles Btn_Menu.Click
         If Pn_SideMenu.Width = 46 Then
-            Pn_SideMenu.AutoScroll = True
+            Pn_Filtros.AutoScroll = True
             Pn_SideMenu.Visible = False
 
-            Pn_Restaurantes.Visible = True
-            Pn_TipoDeComida.Visible = True
-            Pn_TipoDeDespacho.Visible = True
-            Pn_Presupuesto.Visible = True
-            Pn_CantidadDePersonas.Visible = True
-            Lbl_Filtro.Visible = True
+            CambiarVisibilidadMenuFiltros(True)
 
             Pn_SideMenu.Width = 345
             SideMenuAnimator.ShowSync(Pn_SideMenu)
             LogoMenuAnimator.ShowSync(Picture_Logo)
         Else
             'LogoMenuAnimator.Hide(Picture_Logo)
-            Pn_SideMenu.AutoScroll = False
+            Pn_Filtros.AutoScroll = False
 
-            Pn_Restaurantes.Visible = False
-            Pn_TipoDeComida.Visible = False
-            Pn_TipoDeDespacho.Visible = False
-            Pn_Presupuesto.Visible = False
-            Pn_CantidadDePersonas.Visible = False
-            Lbl_Filtro.Visible = False
+            CambiarVisibilidadMenuFiltros(False)
 
             Picture_Logo.Visible = False
             Pn_SideMenu.Visible = False
             Pn_SideMenu.Width = 46
             SideMenuAnimator2.ShowSync(Pn_SideMenu)
         End If
+    End Sub
+
+    Private Sub CambiarVisibilidadMenuFiltros(activo As Boolean)
+        Pn_Restaurantes.Visible = activo
+        Pn_TipoDeComida.Visible = activo
+        Pn_TipoDeDespacho.Visible = activo
+        Pn_Presupuesto.Visible = activo
+        Pn_CantidadDePersonas.Visible = activo
+        Lbl_Filtro.Visible = activo
     End Sub
 
     Private Sub Btn_Maximizar_Click(sender As Object, e As EventArgs) Handles Btn_Maximizar.Click
@@ -63,7 +62,7 @@
         Lbl_ValorPresupuesto.Text = Str(Slider_Presupuesto.Value)
     End Sub
 
-    Private Sub Cb_Grupo_OnChange(sender As Object, e As EventArgs) Handles Cb_Grupo.OnChange
+    Private Sub Cb_Grupo_OnChange(sender As Object, e As EventArgs)
         If Cb_Grupo.Checked Then
             Lbl_2Personas.Visible = True
             Lbl_4Personas.Visible = True
@@ -76,4 +75,5 @@
             Cb_4Personas.Visible = False
         End If
     End Sub
+
 End Class

@@ -212,5 +212,11 @@
   <ItemGroup>
     <None Include="Resources\ico_tiocaiman.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_eventoscarolina.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_subway.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -5,6 +5,7 @@
 
     Private Sub BunifuFlatButton1_Click(sender As Object, e As EventArgs) Handles BunifuFlatButton1.Click
         Dim form1 As New Form1
+        Me.Hide()
         form1.Show()
     End Sub
 End Class
