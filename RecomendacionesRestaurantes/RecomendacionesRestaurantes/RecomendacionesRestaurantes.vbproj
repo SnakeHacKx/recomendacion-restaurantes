@@ -48,10 +48,14 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -102,9 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +122,30 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon-Sample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\042-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\021-stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\165-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\McDonalds-logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
