@@ -33,4 +33,9 @@
     Private Sub Btn_Minimizar_Click(sender As Object, e As EventArgs) Handles Btn_Minimizar.Click
         Me.WindowState = FormWindowState.Minimized
     End Sub
+
+    Private Sub Pic_McDonalds_Click(sender As Object, e As EventArgs) Handles Pic_McDonalds.Click
+        Dim form2 As New Form2
+        form2.ShowDialog()
+    End Sub
 End Class

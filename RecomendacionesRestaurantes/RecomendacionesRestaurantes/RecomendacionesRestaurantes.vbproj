@@ -84,6 +84,12 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -103,6 +109,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -146,6 +155,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\McDonalds-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfc_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Terraza Sushi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-heart.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kfc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_corazonvacio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_corazonlleno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_form2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_cerrar2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
