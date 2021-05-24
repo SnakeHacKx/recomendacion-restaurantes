@@ -3,6 +3,7 @@
     Dim listaRestaurantes As New List(Of Restaurante)
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ' El menu de la izquierda inicia contraido
         Pn_SideMenu.Width = 46
         Me.Width = 1263
         Me.Height = 783

@@ -125,7 +125,7 @@ Partial Class Form2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 11.45833!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 88.54166!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 308.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 297.0!))
         Me.TableLayoutPanel1.Size = New System.Drawing.Size(936, 906)
         Me.TableLayoutPanel1.TabIndex = 1
         '
@@ -135,11 +135,11 @@ Partial Class Form2
         Me.Lbl_TituloRestaurante.AutoSize = True
         Me.Lbl_TituloRestaurante.Font = New System.Drawing.Font("PT Sans", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_TituloRestaurante.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Lbl_TituloRestaurante.Location = New System.Drawing.Point(381, 10)
+        Me.Lbl_TituloRestaurante.Location = New System.Drawing.Point(308, 10)
         Me.Lbl_TituloRestaurante.Name = "Lbl_TituloRestaurante"
-        Me.Lbl_TituloRestaurante.Size = New System.Drawing.Size(173, 42)
+        Me.Lbl_TituloRestaurante.Size = New System.Drawing.Size(319, 42)
         Me.Lbl_TituloRestaurante.TabIndex = 7
-        Me.Lbl_TituloRestaurante.Text = "McDonald's"
+        Me.Lbl_TituloRestaurante.Text = "Título del Restaurante"
         '
         'TableLayoutPanel3
         '
@@ -149,11 +149,11 @@ Partial Class Form2
         Me.TableLayoutPanel3.Controls.Add(Me.Pic_Restaurante, 0, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.DescripcionRestaurante, 1, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 65)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 66)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(930, 473)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(930, 483)
         Me.TableLayoutPanel3.TabIndex = 10
         '
         'Pic_Restaurante
@@ -162,7 +162,7 @@ Partial Class Form2
         Me.Pic_Restaurante.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_mcdonalds
         Me.Pic_Restaurante.Location = New System.Drawing.Point(3, 3)
         Me.Pic_Restaurante.Name = "Pic_Restaurante"
-        Me.Pic_Restaurante.Size = New System.Drawing.Size(459, 467)
+        Me.Pic_Restaurante.Size = New System.Drawing.Size(459, 477)
         Me.Pic_Restaurante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Pic_Restaurante.TabIndex = 10
         Me.Pic_Restaurante.TabStop = False
@@ -174,10 +174,10 @@ Partial Class Form2
         Me.FlowLayoutPanel1.Controls.Add(Me.Btn_Menu2)
         Me.FlowLayoutPanel1.Controls.Add(Me.Btn_Menu3)
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 600)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 611)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Padding = New System.Windows.Forms.Padding(10)
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(930, 303)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(930, 292)
         Me.FlowLayoutPanel1.TabIndex = 11
         '
         'Btn_Menu1
@@ -235,7 +235,7 @@ Partial Class Form2
         Me.TableLayoutPanel2.Controls.Add(Me.BunifuCustomLabel2, 1, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.BunifuRating1, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Btn_Favorito, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(113, 544)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(113, 555)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -298,9 +298,9 @@ Partial Class Form2
         Me.DescripcionRestaurante.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DescripcionRestaurante.Location = New System.Drawing.Point(468, 3)
         Me.DescripcionRestaurante.Name = "DescripcionRestaurante"
-        Me.DescripcionRestaurante.Size = New System.Drawing.Size(459, 467)
+        Me.DescripcionRestaurante.Size = New System.Drawing.Size(459, 477)
         Me.DescripcionRestaurante.TabIndex = 11
-        Me.DescripcionRestaurante.Text = ""
+        Me.DescripcionRestaurante.Text = "Descripción"
         '
         'Form2
         '
