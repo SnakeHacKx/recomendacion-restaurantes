@@ -23,7 +23,6 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.BunifuElipse1 = New Bunifu.Framework.UI.BunifuElipse(Me.components)
         Me.Pn_header = New System.Windows.Forms.Panel()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -33,7 +32,6 @@ Partial Class Form2
         Me.Lbl_TituloRestaurante = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Pic_Restaurante = New System.Windows.Forms.PictureBox()
-        Me.DescripcionRestaurante = New WindowsFormsControlLibrary1.BunifuCustomTextbox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Btn_Menu1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Btn_Menu2 = New Bunifu.Framework.UI.BunifuImageButton()
@@ -43,6 +41,7 @@ Partial Class Form2
         Me.BunifuRating1 = New Bunifu.Framework.UI.BunifuRating()
         Me.Btn_Favorito = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
+        Me.DescripcionRestaurante = New System.Windows.Forms.RichTextBox()
         Me.Pn_header.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Cerrar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -71,7 +70,7 @@ Partial Class Form2
         Me.Pn_header.Dock = System.Windows.Forms.DockStyle.Top
         Me.Pn_header.Location = New System.Drawing.Point(0, 0)
         Me.Pn_header.Name = "Pn_header"
-        Me.Pn_header.Size = New System.Drawing.Size(768, 45)
+        Me.Pn_header.Size = New System.Drawing.Size(936, 45)
         Me.Pn_header.TabIndex = 0
         '
         'PictureBox2
@@ -103,7 +102,7 @@ Partial Class Form2
         Me.Btn_Cerrar.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn_Cerrar.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_cerrar2
         Me.Btn_Cerrar.ImageActive = Nothing
-        Me.Btn_Cerrar.Location = New System.Drawing.Point(731, 12)
+        Me.Btn_Cerrar.Location = New System.Drawing.Point(899, 12)
         Me.Btn_Cerrar.Name = "Btn_Cerrar"
         Me.Btn_Cerrar.Size = New System.Drawing.Size(25, 25)
         Me.Btn_Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -127,16 +126,16 @@ Partial Class Form2
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 88.54166!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 56.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 308.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(768, 742)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(936, 906)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'Lbl_TituloRestaurante
         '
-        Me.Lbl_TituloRestaurante.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Lbl_TituloRestaurante.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.Lbl_TituloRestaurante.AutoSize = True
         Me.Lbl_TituloRestaurante.Font = New System.Drawing.Font("PT Sans", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Lbl_TituloRestaurante.ForeColor = System.Drawing.Color.FromArgb(CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer), CType(CType(31, Byte), Integer))
-        Me.Lbl_TituloRestaurante.Location = New System.Drawing.Point(297, 0)
+        Me.Lbl_TituloRestaurante.Location = New System.Drawing.Point(381, 10)
         Me.Lbl_TituloRestaurante.Name = "Lbl_TituloRestaurante"
         Me.Lbl_TituloRestaurante.Size = New System.Drawing.Size(173, 42)
         Me.Lbl_TituloRestaurante.TabIndex = 7
@@ -150,36 +149,23 @@ Partial Class Form2
         Me.TableLayoutPanel3.Controls.Add(Me.Pic_Restaurante, 0, 0)
         Me.TableLayoutPanel3.Controls.Add(Me.DescripcionRestaurante, 1, 0)
         Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 46)
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(3, 65)
         Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
         Me.TableLayoutPanel3.RowCount = 1
         Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel3.Size = New System.Drawing.Size(762, 328)
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(930, 473)
         Me.TableLayoutPanel3.TabIndex = 10
         '
         'Pic_Restaurante
         '
+        Me.Pic_Restaurante.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Pic_Restaurante.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.ico_mcdonalds
         Me.Pic_Restaurante.Location = New System.Drawing.Point(3, 3)
         Me.Pic_Restaurante.Name = "Pic_Restaurante"
-        Me.Pic_Restaurante.Size = New System.Drawing.Size(375, 322)
+        Me.Pic_Restaurante.Size = New System.Drawing.Size(459, 467)
         Me.Pic_Restaurante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Pic_Restaurante.TabIndex = 10
         Me.Pic_Restaurante.TabStop = False
-        '
-        'DescripcionRestaurante
-        '
-        Me.DescripcionRestaurante.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.DescripcionRestaurante.BorderColor = System.Drawing.Color.SeaGreen
-        Me.DescripcionRestaurante.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.DescripcionRestaurante.Font = New System.Drawing.Font("Open Sans", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DescripcionRestaurante.Location = New System.Drawing.Point(384, 3)
-        Me.DescripcionRestaurante.Multiline = True
-        Me.DescripcionRestaurante.Name = "DescripcionRestaurante"
-        Me.DescripcionRestaurante.ReadOnly = True
-        Me.DescripcionRestaurante.Size = New System.Drawing.Size(375, 322)
-        Me.DescripcionRestaurante.TabIndex = 11
-        Me.DescripcionRestaurante.Text = resources.GetString("DescripcionRestaurante.Text")
         '
         'FlowLayoutPanel1
         '
@@ -188,10 +174,10 @@ Partial Class Form2
         Me.FlowLayoutPanel1.Controls.Add(Me.Btn_Menu2)
         Me.FlowLayoutPanel1.Controls.Add(Me.Btn_Menu3)
         Me.FlowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 436)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(3, 600)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
         Me.FlowLayoutPanel1.Padding = New System.Windows.Forms.Padding(10)
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(762, 303)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(930, 303)
         Me.FlowLayoutPanel1.TabIndex = 11
         '
         'Btn_Menu1
@@ -201,7 +187,7 @@ Partial Class Form2
         Me.Btn_Menu1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn_Menu1.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.menu1
         Me.Btn_Menu1.ImageActive = Nothing
-        Me.Btn_Menu1.Location = New System.Drawing.Point(13, 13)
+        Me.Btn_Menu1.Location = New System.Drawing.Point(13, 60)
         Me.Btn_Menu1.Name = "Btn_Menu1"
         Me.Btn_Menu1.Size = New System.Drawing.Size(350, 350)
         Me.Btn_Menu1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -218,7 +204,7 @@ Partial Class Form2
         Me.Btn_Menu2.ImageActive = Nothing
         Me.Btn_Menu2.Location = New System.Drawing.Point(369, 13)
         Me.Btn_Menu2.Name = "Btn_Menu2"
-        Me.Btn_Menu2.Size = New System.Drawing.Size(350, 350)
+        Me.Btn_Menu2.Size = New System.Drawing.Size(522, 445)
         Me.Btn_Menu2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Btn_Menu2.TabIndex = 1
         Me.Btn_Menu2.TabStop = False
@@ -231,9 +217,9 @@ Partial Class Form2
         Me.Btn_Menu3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Btn_Menu3.Image = Global.RecomendacionesRestaurantes.My.Resources.Resources.menu3
         Me.Btn_Menu3.ImageActive = Nothing
-        Me.Btn_Menu3.Location = New System.Drawing.Point(13, 369)
+        Me.Btn_Menu3.Location = New System.Drawing.Point(13, 464)
         Me.Btn_Menu3.Name = "Btn_Menu3"
-        Me.Btn_Menu3.Size = New System.Drawing.Size(723, 350)
+        Me.Btn_Menu3.Size = New System.Drawing.Size(895, 350)
         Me.Btn_Menu3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Btn_Menu3.TabIndex = 2
         Me.Btn_Menu3.TabStop = False
@@ -249,7 +235,7 @@ Partial Class Form2
         Me.TableLayoutPanel2.Controls.Add(Me.BunifuCustomLabel2, 1, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.BunifuRating1, 2, 0)
         Me.TableLayoutPanel2.Controls.Add(Me.Btn_Favorito, 0, 0)
-        Me.TableLayoutPanel2.Location = New System.Drawing.Point(29, 380)
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(113, 544)
         Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
         Me.TableLayoutPanel2.RowCount = 1
         Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
@@ -304,12 +290,24 @@ Partial Class Form2
         Me.BunifuDragControl1.TargetControl = Me.Pn_header
         Me.BunifuDragControl1.Vertical = True
         '
+        'DescripcionRestaurante
+        '
+        Me.DescripcionRestaurante.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.DescripcionRestaurante.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.DescripcionRestaurante.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DescripcionRestaurante.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DescripcionRestaurante.Location = New System.Drawing.Point(468, 3)
+        Me.DescripcionRestaurante.Name = "DescripcionRestaurante"
+        Me.DescripcionRestaurante.Size = New System.Drawing.Size(459, 467)
+        Me.DescripcionRestaurante.TabIndex = 11
+        Me.DescripcionRestaurante.Text = ""
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(768, 787)
+        Me.ClientSize = New System.Drawing.Size(936, 951)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Pn_header)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -323,7 +321,6 @@ Partial Class Form2
         Me.TableLayoutPanel1.ResumeLayout(False)
         Me.TableLayoutPanel1.PerformLayout()
         Me.TableLayoutPanel3.ResumeLayout(False)
-        Me.TableLayoutPanel3.PerformLayout()
         CType(Me.Pic_Restaurante, System.ComponentModel.ISupportInitialize).EndInit()
         Me.FlowLayoutPanel1.ResumeLayout(False)
         CType(Me.Btn_Menu1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -345,7 +342,6 @@ Partial Class Form2
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
     Friend WithEvents Pic_Restaurante As PictureBox
-    Friend WithEvents DescripcionRestaurante As WindowsFormsControlLibrary1.BunifuCustomTextbox
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents BunifuDragControl1 As Bunifu.Framework.UI.BunifuDragControl
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
@@ -355,4 +351,5 @@ Partial Class Form2
     Friend WithEvents Btn_Menu1 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents Btn_Menu2 As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents Btn_Menu3 As Bunifu.Framework.UI.BunifuImageButton
+    Friend WithEvents DescripcionRestaurante As RichTextBox
 End Class

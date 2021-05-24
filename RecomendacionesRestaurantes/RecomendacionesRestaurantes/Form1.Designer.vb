@@ -23,10 +23,10 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation7 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation6 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation8 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation5 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation35 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation34 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation36 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation33 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Pn_SideMenu = New System.Windows.Forms.Panel()
         Me.Pn_Filtros = New System.Windows.Forms.TableLayoutPanel()
@@ -1306,22 +1306,22 @@ Partial Class Form1
         '
         Me.SideMenuAnimator.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide
         Me.SideMenuAnimator.Cursor = Nothing
-        Animation7.AnimateOnlyDifferences = True
-        Animation7.BlindCoeff = CType(resources.GetObject("Animation7.BlindCoeff"), System.Drawing.PointF)
-        Animation7.LeafCoeff = 0!
-        Animation7.MaxTime = 1.0!
-        Animation7.MinTime = 0!
-        Animation7.MosaicCoeff = CType(resources.GetObject("Animation7.MosaicCoeff"), System.Drawing.PointF)
-        Animation7.MosaicShift = CType(resources.GetObject("Animation7.MosaicShift"), System.Drawing.PointF)
-        Animation7.MosaicSize = 0
-        Animation7.Padding = New System.Windows.Forms.Padding(0)
-        Animation7.RotateCoeff = 0!
-        Animation7.RotateLimit = 0!
-        Animation7.ScaleCoeff = CType(resources.GetObject("Animation7.ScaleCoeff"), System.Drawing.PointF)
-        Animation7.SlideCoeff = CType(resources.GetObject("Animation7.SlideCoeff"), System.Drawing.PointF)
-        Animation7.TimeCoeff = 0!
-        Animation7.TransparencyCoeff = 0!
-        Me.SideMenuAnimator.DefaultAnimation = Animation7
+        Animation35.AnimateOnlyDifferences = True
+        Animation35.BlindCoeff = CType(resources.GetObject("Animation35.BlindCoeff"), System.Drawing.PointF)
+        Animation35.LeafCoeff = 0!
+        Animation35.MaxTime = 1.0!
+        Animation35.MinTime = 0!
+        Animation35.MosaicCoeff = CType(resources.GetObject("Animation35.MosaicCoeff"), System.Drawing.PointF)
+        Animation35.MosaicShift = CType(resources.GetObject("Animation35.MosaicShift"), System.Drawing.PointF)
+        Animation35.MosaicSize = 0
+        Animation35.Padding = New System.Windows.Forms.Padding(0)
+        Animation35.RotateCoeff = 0!
+        Animation35.RotateLimit = 0!
+        Animation35.ScaleCoeff = CType(resources.GetObject("Animation35.ScaleCoeff"), System.Drawing.PointF)
+        Animation35.SlideCoeff = CType(resources.GetObject("Animation35.SlideCoeff"), System.Drawing.PointF)
+        Animation35.TimeCoeff = 0!
+        Animation35.TransparencyCoeff = 0!
+        Me.SideMenuAnimator.DefaultAnimation = Animation35
         '
         'Panel1
         '
@@ -1963,64 +1963,64 @@ Partial Class Form1
         '
         Me.LogoMenuAnimator.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate
         Me.LogoMenuAnimator.Cursor = Nothing
-        Animation6.AnimateOnlyDifferences = True
-        Animation6.BlindCoeff = CType(resources.GetObject("Animation6.BlindCoeff"), System.Drawing.PointF)
-        Animation6.LeafCoeff = 0!
-        Animation6.MaxTime = 1.0!
-        Animation6.MinTime = 0!
-        Animation6.MosaicCoeff = CType(resources.GetObject("Animation6.MosaicCoeff"), System.Drawing.PointF)
-        Animation6.MosaicShift = CType(resources.GetObject("Animation6.MosaicShift"), System.Drawing.PointF)
-        Animation6.MosaicSize = 0
-        Animation6.Padding = New System.Windows.Forms.Padding(30)
-        Animation6.RotateCoeff = 0.5!
-        Animation6.RotateLimit = 0.2!
-        Animation6.ScaleCoeff = CType(resources.GetObject("Animation6.ScaleCoeff"), System.Drawing.PointF)
-        Animation6.SlideCoeff = CType(resources.GetObject("Animation6.SlideCoeff"), System.Drawing.PointF)
-        Animation6.TimeCoeff = 0!
-        Animation6.TransparencyCoeff = 0!
-        Me.LogoMenuAnimator.DefaultAnimation = Animation6
+        Animation34.AnimateOnlyDifferences = True
+        Animation34.BlindCoeff = CType(resources.GetObject("Animation34.BlindCoeff"), System.Drawing.PointF)
+        Animation34.LeafCoeff = 0!
+        Animation34.MaxTime = 1.0!
+        Animation34.MinTime = 0!
+        Animation34.MosaicCoeff = CType(resources.GetObject("Animation34.MosaicCoeff"), System.Drawing.PointF)
+        Animation34.MosaicShift = CType(resources.GetObject("Animation34.MosaicShift"), System.Drawing.PointF)
+        Animation34.MosaicSize = 0
+        Animation34.Padding = New System.Windows.Forms.Padding(30)
+        Animation34.RotateCoeff = 0.5!
+        Animation34.RotateLimit = 0.2!
+        Animation34.ScaleCoeff = CType(resources.GetObject("Animation34.ScaleCoeff"), System.Drawing.PointF)
+        Animation34.SlideCoeff = CType(resources.GetObject("Animation34.SlideCoeff"), System.Drawing.PointF)
+        Animation34.TimeCoeff = 0!
+        Animation34.TransparencyCoeff = 0!
+        Me.LogoMenuAnimator.DefaultAnimation = Animation34
         '
         'SideMenuAnimator2
         '
         Me.SideMenuAnimator2.AnimationType = BunifuAnimatorNS.AnimationType.Particles
         Me.SideMenuAnimator2.Cursor = Nothing
-        Animation8.AnimateOnlyDifferences = True
-        Animation8.BlindCoeff = CType(resources.GetObject("Animation8.BlindCoeff"), System.Drawing.PointF)
-        Animation8.LeafCoeff = 0!
-        Animation8.MaxTime = 1.0!
-        Animation8.MinTime = 0!
-        Animation8.MosaicCoeff = CType(resources.GetObject("Animation8.MosaicCoeff"), System.Drawing.PointF)
-        Animation8.MosaicShift = CType(resources.GetObject("Animation8.MosaicShift"), System.Drawing.PointF)
-        Animation8.MosaicSize = 1
-        Animation8.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
-        Animation8.RotateCoeff = 0!
-        Animation8.RotateLimit = 0!
-        Animation8.ScaleCoeff = CType(resources.GetObject("Animation8.ScaleCoeff"), System.Drawing.PointF)
-        Animation8.SlideCoeff = CType(resources.GetObject("Animation8.SlideCoeff"), System.Drawing.PointF)
-        Animation8.TimeCoeff = 2.0!
-        Animation8.TransparencyCoeff = 0!
-        Me.SideMenuAnimator2.DefaultAnimation = Animation8
+        Animation36.AnimateOnlyDifferences = True
+        Animation36.BlindCoeff = CType(resources.GetObject("Animation36.BlindCoeff"), System.Drawing.PointF)
+        Animation36.LeafCoeff = 0!
+        Animation36.MaxTime = 1.0!
+        Animation36.MinTime = 0!
+        Animation36.MosaicCoeff = CType(resources.GetObject("Animation36.MosaicCoeff"), System.Drawing.PointF)
+        Animation36.MosaicShift = CType(resources.GetObject("Animation36.MosaicShift"), System.Drawing.PointF)
+        Animation36.MosaicSize = 1
+        Animation36.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
+        Animation36.RotateCoeff = 0!
+        Animation36.RotateLimit = 0!
+        Animation36.ScaleCoeff = CType(resources.GetObject("Animation36.ScaleCoeff"), System.Drawing.PointF)
+        Animation36.SlideCoeff = CType(resources.GetObject("Animation36.SlideCoeff"), System.Drawing.PointF)
+        Animation36.TimeCoeff = 2.0!
+        Animation36.TransparencyCoeff = 0!
+        Me.SideMenuAnimator2.DefaultAnimation = Animation36
         '
         'SideMenuHideAnimator
         '
         Me.SideMenuHideAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
         Me.SideMenuHideAnimator.Cursor = Nothing
-        Animation5.AnimateOnlyDifferences = True
-        Animation5.BlindCoeff = CType(resources.GetObject("Animation5.BlindCoeff"), System.Drawing.PointF)
-        Animation5.LeafCoeff = 1.0!
-        Animation5.MaxTime = 1.0!
-        Animation5.MinTime = 0!
-        Animation5.MosaicCoeff = CType(resources.GetObject("Animation5.MosaicCoeff"), System.Drawing.PointF)
-        Animation5.MosaicShift = CType(resources.GetObject("Animation5.MosaicShift"), System.Drawing.PointF)
-        Animation5.MosaicSize = 0
-        Animation5.Padding = New System.Windows.Forms.Padding(0)
-        Animation5.RotateCoeff = 0!
-        Animation5.RotateLimit = 0!
-        Animation5.ScaleCoeff = CType(resources.GetObject("Animation5.ScaleCoeff"), System.Drawing.PointF)
-        Animation5.SlideCoeff = CType(resources.GetObject("Animation5.SlideCoeff"), System.Drawing.PointF)
-        Animation5.TimeCoeff = 0!
-        Animation5.TransparencyCoeff = 0!
-        Me.SideMenuHideAnimator.DefaultAnimation = Animation5
+        Animation33.AnimateOnlyDifferences = True
+        Animation33.BlindCoeff = CType(resources.GetObject("Animation33.BlindCoeff"), System.Drawing.PointF)
+        Animation33.LeafCoeff = 1.0!
+        Animation33.MaxTime = 1.0!
+        Animation33.MinTime = 0!
+        Animation33.MosaicCoeff = CType(resources.GetObject("Animation33.MosaicCoeff"), System.Drawing.PointF)
+        Animation33.MosaicShift = CType(resources.GetObject("Animation33.MosaicShift"), System.Drawing.PointF)
+        Animation33.MosaicSize = 0
+        Animation33.Padding = New System.Windows.Forms.Padding(0)
+        Animation33.RotateCoeff = 0!
+        Animation33.RotateLimit = 0!
+        Animation33.ScaleCoeff = CType(resources.GetObject("Animation33.ScaleCoeff"), System.Drawing.PointF)
+        Animation33.SlideCoeff = CType(resources.GetObject("Animation33.SlideCoeff"), System.Drawing.PointF)
+        Animation33.TimeCoeff = 0!
+        Animation33.TransparencyCoeff = 0!
+        Me.SideMenuHideAnimator.DefaultAnimation = Animation33
         Me.SideMenuHideAnimator.Interval = 5
         Me.SideMenuHideAnimator.MaxAnimationTime = 20
         Me.SideMenuHideAnimator.TimeStep = 0.001!
