@@ -23,11 +23,11 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Animation7 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation8 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
-        Dim Animation5 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation2 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation3 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation1 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
-        Dim Animation6 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
+        Dim Animation4 As BunifuAnimatorNS.Animation = New BunifuAnimatorNS.Animation()
         Me.Pn_SideMenu = New System.Windows.Forms.Panel()
         Me.Pn_Filtros = New System.Windows.Forms.TableLayoutPanel()
         Me.Pn_Especialidad = New System.Windows.Forms.Panel()
@@ -114,10 +114,10 @@ Partial Class Form1
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.Lbl_Kfc = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Pic_Kfc = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.Pn_Restaurantes = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Pn_mcdonads = New System.Windows.Forms.TableLayoutPanel()
         Me.Lbl_McDonalds = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Pic_McDonalds = New Bunifu.Framework.UI.BunifuImageButton()
-        Me.Pn_Restaurantes = New System.Windows.Forms.FlowLayoutPanel()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
         Me.Lbl_EventosCarolina = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Pic_EventosCarolina = New Bunifu.Framework.UI.BunifuImageButton()
@@ -161,9 +161,9 @@ Partial Class Form1
         CType(Me.Pic_TerrazaSushi, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel2.SuspendLayout()
         CType(Me.Pic_Kfc, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TableLayoutPanel1.SuspendLayout()
-        CType(Me.Pic_McDonalds, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Pn_Restaurantes.SuspendLayout()
+        Me.Pn_mcdonads.SuspendLayout()
+        CType(Me.Pic_McDonalds, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel7.SuspendLayout()
         CType(Me.Pic_EventosCarolina, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TableLayoutPanel8.SuspendLayout()
@@ -1306,22 +1306,22 @@ Partial Class Form1
         '
         Me.SideMenuAnimator.AnimationType = BunifuAnimatorNS.AnimationType.HorizSlide
         Me.SideMenuAnimator.Cursor = Nothing
-        Animation7.AnimateOnlyDifferences = True
-        Animation7.BlindCoeff = CType(resources.GetObject("Animation7.BlindCoeff"), System.Drawing.PointF)
-        Animation7.LeafCoeff = 0!
-        Animation7.MaxTime = 1.0!
-        Animation7.MinTime = 0!
-        Animation7.MosaicCoeff = CType(resources.GetObject("Animation7.MosaicCoeff"), System.Drawing.PointF)
-        Animation7.MosaicShift = CType(resources.GetObject("Animation7.MosaicShift"), System.Drawing.PointF)
-        Animation7.MosaicSize = 0
-        Animation7.Padding = New System.Windows.Forms.Padding(0)
-        Animation7.RotateCoeff = 0!
-        Animation7.RotateLimit = 0!
-        Animation7.ScaleCoeff = CType(resources.GetObject("Animation7.ScaleCoeff"), System.Drawing.PointF)
-        Animation7.SlideCoeff = CType(resources.GetObject("Animation7.SlideCoeff"), System.Drawing.PointF)
-        Animation7.TimeCoeff = 0!
-        Animation7.TransparencyCoeff = 0!
-        Me.SideMenuAnimator.DefaultAnimation = Animation7
+        Animation2.AnimateOnlyDifferences = True
+        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
+        Animation2.LeafCoeff = 0!
+        Animation2.MaxTime = 1.0!
+        Animation2.MinTime = 0!
+        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
+        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
+        Animation2.MosaicSize = 0
+        Animation2.Padding = New System.Windows.Forms.Padding(0)
+        Animation2.RotateCoeff = 0!
+        Animation2.RotateLimit = 0!
+        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
+        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
+        Animation2.TimeCoeff = 0!
+        Animation2.TransparencyCoeff = 0!
+        Me.SideMenuAnimator.DefaultAnimation = Animation2
         '
         'Panel1
         '
@@ -1661,24 +1661,47 @@ Partial Class Form1
         Me.Pic_Kfc.TabStop = False
         Me.Pic_Kfc.Zoom = 30
         '
-        'TableLayoutPanel1
+        'Pn_Restaurantes
         '
-        Me.TableLayoutPanel1.ColumnCount = 1
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.Lbl_McDonalds, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Pic_McDonalds, 0, 0)
-        Me.SideMenuHideAnimator.SetDecoration(Me.TableLayoutPanel1, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.TableLayoutPanel1, BunifuAnimatorNS.DecorationType.None)
-        Me.LogoMenuAnimator.SetDecoration(Me.TableLayoutPanel1, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.TableLayoutPanel1, BunifuAnimatorNS.DecorationType.None)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(3, 3)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 2
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(219, 250)
-        Me.TableLayoutPanel1.TabIndex = 1
+        Me.Pn_Restaurantes.AutoScroll = True
+        Me.Pn_Restaurantes.Controls.Add(Me.Pn_mcdonads)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel2)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel3)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel4)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel5)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel6)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel7)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel8)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel9)
+        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel10)
+        Me.LogoMenuAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
+        Me.Pn_Restaurantes.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Pn_Restaurantes.Location = New System.Drawing.Point(358, 164)
+        Me.Pn_Restaurantes.Name = "Pn_Restaurantes"
+        Me.Pn_Restaurantes.Size = New System.Drawing.Size(905, 619)
+        Me.Pn_Restaurantes.TabIndex = 4
+        '
+        'Pn_mcdonads
+        '
+        Me.Pn_mcdonads.ColumnCount = 1
+        Me.Pn_mcdonads.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.Pn_mcdonads.Controls.Add(Me.Lbl_McDonalds, 0, 1)
+        Me.Pn_mcdonads.Controls.Add(Me.Pic_McDonalds, 0, 0)
+        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_mcdonads, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator.SetDecoration(Me.Pn_mcdonads, BunifuAnimatorNS.DecorationType.None)
+        Me.LogoMenuAnimator.SetDecoration(Me.Pn_mcdonads, BunifuAnimatorNS.DecorationType.None)
+        Me.SideMenuAnimator2.SetDecoration(Me.Pn_mcdonads, BunifuAnimatorNS.DecorationType.None)
+        Me.Pn_mcdonads.Location = New System.Drawing.Point(3, 3)
+        Me.Pn_mcdonads.Name = "Pn_mcdonads"
+        Me.Pn_mcdonads.RowCount = 2
+        Me.Pn_mcdonads.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 85.2!))
+        Me.Pn_mcdonads.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.8!))
+        Me.Pn_mcdonads.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.Pn_mcdonads.Size = New System.Drawing.Size(219, 250)
+        Me.Pn_mcdonads.TabIndex = 1
         '
         'Lbl_McDonalds
         '
@@ -1715,29 +1738,6 @@ Partial Class Form1
         Me.Pic_McDonalds.TabIndex = 2
         Me.Pic_McDonalds.TabStop = False
         Me.Pic_McDonalds.Zoom = 30
-        '
-        'Pn_Restaurantes
-        '
-        Me.Pn_Restaurantes.AutoScroll = True
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel1)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel2)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel3)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel4)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel5)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel6)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel7)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel8)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel9)
-        Me.Pn_Restaurantes.Controls.Add(Me.TableLayoutPanel10)
-        Me.LogoMenuAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuHideAnimator.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
-        Me.SideMenuAnimator2.SetDecoration(Me.Pn_Restaurantes, BunifuAnimatorNS.DecorationType.None)
-        Me.Pn_Restaurantes.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Pn_Restaurantes.Location = New System.Drawing.Point(358, 164)
-        Me.Pn_Restaurantes.Name = "Pn_Restaurantes"
-        Me.Pn_Restaurantes.Size = New System.Drawing.Size(905, 619)
-        Me.Pn_Restaurantes.TabIndex = 4
         '
         'TableLayoutPanel7
         '
@@ -1963,64 +1963,64 @@ Partial Class Form1
         '
         Me.LogoMenuAnimator.AnimationType = BunifuAnimatorNS.AnimationType.ScaleAndRotate
         Me.LogoMenuAnimator.Cursor = Nothing
-        Animation8.AnimateOnlyDifferences = True
-        Animation8.BlindCoeff = CType(resources.GetObject("Animation8.BlindCoeff"), System.Drawing.PointF)
-        Animation8.LeafCoeff = 0!
-        Animation8.MaxTime = 1.0!
-        Animation8.MinTime = 0!
-        Animation8.MosaicCoeff = CType(resources.GetObject("Animation8.MosaicCoeff"), System.Drawing.PointF)
-        Animation8.MosaicShift = CType(resources.GetObject("Animation8.MosaicShift"), System.Drawing.PointF)
-        Animation8.MosaicSize = 0
-        Animation8.Padding = New System.Windows.Forms.Padding(30)
-        Animation8.RotateCoeff = 0.5!
-        Animation8.RotateLimit = 0.2!
-        Animation8.ScaleCoeff = CType(resources.GetObject("Animation8.ScaleCoeff"), System.Drawing.PointF)
-        Animation8.SlideCoeff = CType(resources.GetObject("Animation8.SlideCoeff"), System.Drawing.PointF)
-        Animation8.TimeCoeff = 0!
-        Animation8.TransparencyCoeff = 0!
-        Me.LogoMenuAnimator.DefaultAnimation = Animation8
+        Animation3.AnimateOnlyDifferences = True
+        Animation3.BlindCoeff = CType(resources.GetObject("Animation3.BlindCoeff"), System.Drawing.PointF)
+        Animation3.LeafCoeff = 0!
+        Animation3.MaxTime = 1.0!
+        Animation3.MinTime = 0!
+        Animation3.MosaicCoeff = CType(resources.GetObject("Animation3.MosaicCoeff"), System.Drawing.PointF)
+        Animation3.MosaicShift = CType(resources.GetObject("Animation3.MosaicShift"), System.Drawing.PointF)
+        Animation3.MosaicSize = 0
+        Animation3.Padding = New System.Windows.Forms.Padding(30)
+        Animation3.RotateCoeff = 0.5!
+        Animation3.RotateLimit = 0.2!
+        Animation3.ScaleCoeff = CType(resources.GetObject("Animation3.ScaleCoeff"), System.Drawing.PointF)
+        Animation3.SlideCoeff = CType(resources.GetObject("Animation3.SlideCoeff"), System.Drawing.PointF)
+        Animation3.TimeCoeff = 0!
+        Animation3.TransparencyCoeff = 0!
+        Me.LogoMenuAnimator.DefaultAnimation = Animation3
         '
         'SideMenuAnimator2
         '
         Me.SideMenuAnimator2.AnimationType = BunifuAnimatorNS.AnimationType.Particles
         Me.SideMenuAnimator2.Cursor = Nothing
-        Animation5.AnimateOnlyDifferences = True
-        Animation5.BlindCoeff = CType(resources.GetObject("Animation5.BlindCoeff"), System.Drawing.PointF)
-        Animation5.LeafCoeff = 0!
-        Animation5.MaxTime = 1.0!
-        Animation5.MinTime = 0!
-        Animation5.MosaicCoeff = CType(resources.GetObject("Animation5.MosaicCoeff"), System.Drawing.PointF)
-        Animation5.MosaicShift = CType(resources.GetObject("Animation5.MosaicShift"), System.Drawing.PointF)
-        Animation5.MosaicSize = 1
-        Animation5.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
-        Animation5.RotateCoeff = 0!
-        Animation5.RotateLimit = 0!
-        Animation5.ScaleCoeff = CType(resources.GetObject("Animation5.ScaleCoeff"), System.Drawing.PointF)
-        Animation5.SlideCoeff = CType(resources.GetObject("Animation5.SlideCoeff"), System.Drawing.PointF)
-        Animation5.TimeCoeff = 2.0!
-        Animation5.TransparencyCoeff = 0!
-        Me.SideMenuAnimator2.DefaultAnimation = Animation5
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 1
+        Animation1.Padding = New System.Windows.Forms.Padding(100, 50, 100, 150)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 2.0!
+        Animation1.TransparencyCoeff = 0!
+        Me.SideMenuAnimator2.DefaultAnimation = Animation1
         '
         'SideMenuHideAnimator
         '
         Me.SideMenuHideAnimator.AnimationType = BunifuAnimatorNS.AnimationType.Leaf
         Me.SideMenuHideAnimator.Cursor = Nothing
-        Animation6.AnimateOnlyDifferences = True
-        Animation6.BlindCoeff = CType(resources.GetObject("Animation6.BlindCoeff"), System.Drawing.PointF)
-        Animation6.LeafCoeff = 1.0!
-        Animation6.MaxTime = 1.0!
-        Animation6.MinTime = 0!
-        Animation6.MosaicCoeff = CType(resources.GetObject("Animation6.MosaicCoeff"), System.Drawing.PointF)
-        Animation6.MosaicShift = CType(resources.GetObject("Animation6.MosaicShift"), System.Drawing.PointF)
-        Animation6.MosaicSize = 0
-        Animation6.Padding = New System.Windows.Forms.Padding(0)
-        Animation6.RotateCoeff = 0!
-        Animation6.RotateLimit = 0!
-        Animation6.ScaleCoeff = CType(resources.GetObject("Animation6.ScaleCoeff"), System.Drawing.PointF)
-        Animation6.SlideCoeff = CType(resources.GetObject("Animation6.SlideCoeff"), System.Drawing.PointF)
-        Animation6.TimeCoeff = 0!
-        Animation6.TransparencyCoeff = 0!
-        Me.SideMenuHideAnimator.DefaultAnimation = Animation6
+        Animation4.AnimateOnlyDifferences = True
+        Animation4.BlindCoeff = CType(resources.GetObject("Animation4.BlindCoeff"), System.Drawing.PointF)
+        Animation4.LeafCoeff = 1.0!
+        Animation4.MaxTime = 1.0!
+        Animation4.MinTime = 0!
+        Animation4.MosaicCoeff = CType(resources.GetObject("Animation4.MosaicCoeff"), System.Drawing.PointF)
+        Animation4.MosaicShift = CType(resources.GetObject("Animation4.MosaicShift"), System.Drawing.PointF)
+        Animation4.MosaicSize = 0
+        Animation4.Padding = New System.Windows.Forms.Padding(0)
+        Animation4.RotateCoeff = 0!
+        Animation4.RotateLimit = 0!
+        Animation4.ScaleCoeff = CType(resources.GetObject("Animation4.ScaleCoeff"), System.Drawing.PointF)
+        Animation4.SlideCoeff = CType(resources.GetObject("Animation4.SlideCoeff"), System.Drawing.PointF)
+        Animation4.TimeCoeff = 0!
+        Animation4.TransparencyCoeff = 0!
+        Me.SideMenuHideAnimator.DefaultAnimation = Animation4
         Me.SideMenuHideAnimator.Interval = 5
         Me.SideMenuHideAnimator.MaxAnimationTime = 20
         Me.SideMenuHideAnimator.TimeStep = 0.001!
@@ -2043,7 +2043,7 @@ Partial Class Form1
         Me.MinimumSize = New System.Drawing.Size(1263, 783)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Form1"
+        Me.Text = " "
         Me.Pn_SideMenu.ResumeLayout(False)
         Me.Pn_Filtros.ResumeLayout(False)
         Me.Pn_Filtros.PerformLayout()
@@ -2088,10 +2088,10 @@ Partial Class Form1
         Me.TableLayoutPanel2.ResumeLayout(False)
         Me.TableLayoutPanel2.PerformLayout()
         CType(Me.Pic_Kfc, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
-        CType(Me.Pic_McDonalds, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Pn_Restaurantes.ResumeLayout(False)
+        Me.Pn_mcdonads.ResumeLayout(False)
+        Me.Pn_mcdonads.PerformLayout()
+        CType(Me.Pic_McDonalds, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TableLayoutPanel7.ResumeLayout(False)
         Me.TableLayoutPanel7.PerformLayout()
         CType(Me.Pic_EventosCarolina, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2146,9 +2146,6 @@ Partial Class Form1
     Friend WithEvents BunifuCustomLabel18 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Lbl_ValorPresupuesto As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Pn_Restaurantes As FlowLayoutPanel
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents Lbl_McDonalds As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents Pic_McDonalds As Bunifu.Framework.UI.BunifuImageButton
     Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents Lbl_Kfc As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Pic_Kfc As Bunifu.Framework.UI.BunifuImageButton
@@ -2213,4 +2210,7 @@ Partial Class Form1
     Friend WithEvents Pic_SalsaCarbon As Bunifu.Framework.UI.BunifuImageButton
     Private WithEvents SideMenuHideAnimator As BunifuAnimatorNS.BunifuTransition
     Private WithEvents SideMenuAnimator2 As BunifuAnimatorNS.BunifuTransition
+    Friend WithEvents Pn_mcdonads As TableLayoutPanel
+    Friend WithEvents Lbl_McDonalds As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Pic_McDonalds As Bunifu.Framework.UI.BunifuImageButton
 End Class

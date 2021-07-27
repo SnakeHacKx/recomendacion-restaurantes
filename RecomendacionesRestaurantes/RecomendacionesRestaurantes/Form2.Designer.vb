@@ -32,6 +32,7 @@ Partial Class Form2
         Me.Lbl_TituloRestaurante = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.Pic_Restaurante = New System.Windows.Forms.PictureBox()
+        Me.DescripcionRestaurante = New System.Windows.Forms.RichTextBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.Btn_Menu1 = New Bunifu.Framework.UI.BunifuImageButton()
         Me.Btn_Menu2 = New Bunifu.Framework.UI.BunifuImageButton()
@@ -41,7 +42,6 @@ Partial Class Form2
         Me.BunifuRating1 = New Bunifu.Framework.UI.BunifuRating()
         Me.Btn_Favorito = New Bunifu.Framework.UI.BunifuImageButton()
         Me.BunifuDragControl1 = New Bunifu.Framework.UI.BunifuDragControl(Me.components)
-        Me.DescripcionRestaurante = New System.Windows.Forms.RichTextBox()
         Me.Pn_header.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Btn_Cerrar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,6 +167,19 @@ Partial Class Form2
         Me.Pic_Restaurante.TabIndex = 10
         Me.Pic_Restaurante.TabStop = False
         '
+        'DescripcionRestaurante
+        '
+        Me.DescripcionRestaurante.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
+        Me.DescripcionRestaurante.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.DescripcionRestaurante.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DescripcionRestaurante.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DescripcionRestaurante.Location = New System.Drawing.Point(468, 3)
+        Me.DescripcionRestaurante.Name = "DescripcionRestaurante"
+        Me.DescripcionRestaurante.ReadOnly = True
+        Me.DescripcionRestaurante.Size = New System.Drawing.Size(459, 477)
+        Me.DescripcionRestaurante.TabIndex = 11
+        Me.DescripcionRestaurante.Text = "Descripción"
+        '
         'FlowLayoutPanel1
         '
         Me.FlowLayoutPanel1.AutoScroll = True
@@ -289,18 +302,6 @@ Partial Class Form2
         Me.BunifuDragControl1.Horizontal = True
         Me.BunifuDragControl1.TargetControl = Me.Pn_header
         Me.BunifuDragControl1.Vertical = True
-        '
-        'DescripcionRestaurante
-        '
-        Me.DescripcionRestaurante.BackColor = System.Drawing.Color.FromArgb(CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer), CType(CType(238, Byte), Integer))
-        Me.DescripcionRestaurante.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.DescripcionRestaurante.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DescripcionRestaurante.Font = New System.Drawing.Font("Open Sans", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DescripcionRestaurante.Location = New System.Drawing.Point(468, 3)
-        Me.DescripcionRestaurante.Name = "DescripcionRestaurante"
-        Me.DescripcionRestaurante.Size = New System.Drawing.Size(459, 477)
-        Me.DescripcionRestaurante.TabIndex = 11
-        Me.DescripcionRestaurante.Text = "Descripción"
         '
         'Form2
         '
